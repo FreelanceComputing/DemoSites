@@ -39,13 +39,13 @@
     // MySQL settings. You need to get this info from your web host.
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'database_name' );
+    define( 'K_DB_NAME', 'mysql' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'database_username' );
+    define( 'K_DB_USER', 'root' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', 'database_password' );
+    define( 'K_DB_PASSWORD', '' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
     define( 'K_DB_HOST', 'localhost' );
