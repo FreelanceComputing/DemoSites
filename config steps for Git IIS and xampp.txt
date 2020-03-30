@@ -1,0 +1,43 @@
+// no need to run jekyll on hnm site
+// because vs debug takes care of that
+
+
+// sparse checkout
+- no need to run "git init"
+- no need to create a folder with the repo name
+git clone --no-checkout <url path>
+cd DemoSites/
+- where 'DemoSites' is the name of the repo
+git config core.sparsecheckout true
+echo <dir> > .git/info/sparse-checkout 
+- the above should be run for the first line only
+- other lines in the file should be added manually
+git checkout
+
+
+// enable php fastcgi on VS2017 iis express project
+-  https://stackoverflow.com/a/45043425
+// use appcmd option instead of manual file edits
+// path is \.vs\config\applicationhost.config
+
+
+// enable xampp to launch from custom path
+-  https://stackoverflow.com/a/34656536
+-  modify DocumentRoot & Directory in httpd.conf
+-  located in C:\xampp\apache\conf
+
+// find xampp username and pwd
+-  launch xampp control panel
+-  run apache and mysql
+-  navigate to http://localhost/phpmyadmin/
+-  click on the "User accounts" tab
+-  values can be seen in the overview table
+-  NB: host name is not the db name
+
+
+// find xampp db
+-  launch xampp control panel
+-  make sure mysql is running
+-  navigate to http://localhost/phpmyadmin/
+-  click on the "Databases" tab
+-  values can be seen in the databases table
