@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once( 'couch/cms.php' ); ?>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Hidden No More Cameroon</title>
