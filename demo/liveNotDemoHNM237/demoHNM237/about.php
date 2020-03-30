@@ -1,4 +1,4 @@
-﻿<?php require_once( 'couch/cms.php' ); ?>
+﻿<?php require_once( 'the-digital-bee/cms.php' ); ?>
 <!DOCTYPE html>
 <html>
 <head>
