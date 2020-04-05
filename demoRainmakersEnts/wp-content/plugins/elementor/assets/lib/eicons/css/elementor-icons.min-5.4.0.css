@@ -1,14 +1,10 @@
 /*! elementor-icons - v5.4.0 - 21-08-2019 */
 @font-face {
- font-family:eicons;
- src:url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.4.0);
- src:url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.4.0#iefix) format("embedded-opentype"),
- url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.4.0) format("woff2"),
- url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.4.0) format("woff"),
- url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.4.0) format("truetype"),
- url(../../../../../../../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.4.0#eicon) format("svg");
- font-weight:400;
- font-style:normal
+    font-family: eicons;
+    src: url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.4.0);
+    src: url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.4.0#iefix) format("embedded-opentype"), url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.4.0) format("woff2"), url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.4.0) format("woff"), url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.4.0) format("truetype"), url(../../../../../../plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.4.0#eicon) format("svg");
+    font-weight: 400;
+    font-style: normal
 }
 [class*=" eicon-"],
 [class^=eicon] {
