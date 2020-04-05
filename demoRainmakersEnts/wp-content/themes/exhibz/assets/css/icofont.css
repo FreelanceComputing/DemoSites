@@ -1,8 +1,8 @@
 @font-face {
  font-family:'iconfont';
- src:url(../../../../../../../../../../themes/exhibz/assets/fonts/iconfont.ttf?ukrc8w) format('truetype'),
- url(../../../../../../../../../../themes/exhibz/assets/fonts/iconfont.woff?ukrc8w) format('woff'),
- url('../../../../../../../../../../themes/exhibz/assets/fonts/iconfont.svg?ukrc8w#iconfont') format('svg');
+ src:url(../../../../themes/exhibz/assets/fonts/icofont.ttf) format('truetype'),
+ url(../../../../themes/exhibz/assets/fonts/iconfont.woff) format('woff'),
+ url('../../../../themes/exhibz/assets/fonts/iconfont.svg#iconfont') format('svg');
  font-weight:400;
  font-style:normal
 }
