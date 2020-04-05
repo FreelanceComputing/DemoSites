@@ -68,7 +68,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact\index.html" />
+    <Content Include="contact\outer-index.html" />
+    <Content Include="faq\index.html" />
+    <Content Include="faq\outer-index.html" />
+    <Content Include="gallery\index.html" />
+    <Content Include="gallery\outer-index.html" />
+    <Content Include="index.html" />
+    <Content Include="outer-index.html" />
+    <Content Include="speaker\lucy-melisa\index.html" />
+    <Content Include="speaker\lucy-melisa\outer-index.html" />
     <Content Include="Web.config" />
+    <Content Include="wp-content\plugins\contact-form-7\includes\js\scripts-5.1.6.js" />
+    <Content Include="wp-content\plugins\contact-form-7\includes\styles.css" />
+    <Content Include="wp-content\plugins\elementor\assets\css\frontend.min-2.7.5.css" />
+    <Content Include="wp-content\plugins\elementor\assets\js\frontend-modules.min-2.7.5.js" />
+    <Content Include="wp-content\plugins\elementor\assets\js\frontend.min-2.7.5.js" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\animations\animations.min-2.7.5.css" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\dialog\dialog.min-4.7.3.js" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min-5.4.0.css" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\css\font-awesome.min-4.7.0.css" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\swiper\swiper.min-4.4.6.js" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\waypoints\waypoints.min-4.0.2.js" />
+    <Content Include="wp-content\themes\exhibz\assets\css\bootstrap.min.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\gutenberg-custom.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\icofont.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\magnific-popup.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\master.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\owl.carousel.min.css" />
+    <Content Include="wp-content\themes\exhibz\assets\css\woocommerce.css" />
+    <Content Include="wp-content\themes\exhibz\assets\images\logo\logo-light.png" />
+    <Content Include="wp-content\themes\exhibz\assets\js\bootstrap.min.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\elementor.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\jquery.jCounter.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\owl.carousel.min.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\popper.min.js" />
+    <Content Include="wp-content\themes\exhibz\assets\js\script.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\css\style.css" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\anime.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\attrparallax.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\jquery.easing.1.3.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\magician.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\main.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\tilt.jquery.min.js" />
+    <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\TweenMax.min.js" />
+    <Content Include="wp-content\uploads\about-banner.jpg" />
+    <Content Include="wp-content\uploads\banner_bg.jpg" />
+    <Content Include="wp-content\uploads\book_seat_img.jpg" />
+    <Content Include="wp-content\uploads\cta_bg.png" />
+    <Content Include="wp-content\uploads\cta_img.jpg" />
+    <Content Include="wp-content\uploads\elementor\css\global.css" />
+    <Content Include="wp-content\uploads\elementor\css\post-10.css" />
+    <Content Include="wp-content\uploads\gallery1.jpg" />
+    <Content Include="wp-content\uploads\gallery2.jpg" />
+    <Content Include="wp-content\uploads\gallery3.jpg" />
+    <Content Include="wp-content\uploads\gallery4.jpg" />
+    <Content Include="wp-content\uploads\gallery5.jpg" />
+    <Content Include="wp-content\uploads\gallery6.jpg" />
+    <Content Include="wp-content\uploads\speaker1.jpg" />
+    <Content Include="wp-content\uploads\speaker2.jpg" />
+    <Content Include="wp-content\uploads\speaker3.jpg" />
+    <Content Include="wp-content\uploads\speaker4.jpg" />
+    <Content Include="wp-content\uploads\sponsor-6.png" />
+    <Content Include="wp-includes\css\dist\block-library\style.min.css" />
+    <Content Include="wp-includes\js\jquery\jquery-1.12.4-wp.js" />
+    <Content Include="wp-includes\js\jquery\jquery-migrate.min-1.4.1.js" />
+    <Content Include="wp-includes\js\jquery\ui\position.min-1.11.4.js" />
+    <Content Include="wp-includes\js\wp-embed.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +149,15 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\css\font-awesome.css-4.7.0.map" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wp-content\themes\exhibz\assets\fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
