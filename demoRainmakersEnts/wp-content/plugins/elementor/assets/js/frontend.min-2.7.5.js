@@ -2102,9 +2102,7 @@
 	}
 }, function (e, t)
 {
-	e.exports = "\t\n\v\f\r   ᠎             　
-
-﻿"
+	e.exports = "\t\n\v\f\r﻿"
 }, function (e, t, n)
 {
 	e.exports = n(183)

@@ -2049,9 +2049,7 @@
 	}
 }, function (t, e)
 {
-	t.exports = "\t\n\v\f\r   ᠎             　
-
-﻿"
+	t.exports = "\t\n\v\f\r﻿"
 }, , function (t, e, n)
 {
 	var r = n(91),
