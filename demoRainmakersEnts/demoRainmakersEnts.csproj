@@ -100,6 +100,8 @@
     <Content Include="wp-content\themes\exhibz\assets\css\owl.carousel.min.css" />
     <Content Include="wp-content\themes\exhibz\assets\css\woocommerce.css" />
     <Content Include="wp-content\themes\exhibz\assets\images\logo\logo-light.png" />
+    <Content Include="wp-content\themes\exhibz\assets\images\shape\title.png" />
+    <Content Include="wp-content\themes\exhibz\assets\images\shape\topics_mem.png" />
     <Content Include="wp-content\themes\exhibz\assets\js\bootstrap.min.js" />
     <Content Include="wp-content\themes\exhibz\assets\js\elementor.js" />
     <Content Include="wp-content\themes\exhibz\assets\js\jquery.jCounter.js" />

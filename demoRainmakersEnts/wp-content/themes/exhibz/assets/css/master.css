@@ -850,7 +850,7 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  left:0;
  top:0;
  content:'';
- background-image:url(../../../../../../../../../../themes/exhibz/assets/images/shape/title.png);
+ background-image:url(../../../../themes/exhibz/assets/images/shape/title.png);
  background-repeat:no-repeat;
  background-position:contain;
  width:70px;
@@ -2887,7 +2887,7 @@ p.form-submit .submit {
  -webkit-transition:all ease .5s;
  -o-transition:all ease .5s;
  transition:all ease .5s;
- background:url(../../../../../../../../../../themes/exhibz/assets/images/shape/topics_mem.png) no-repeat center left
+ background:url(../../../../themes/exhibz/assets/images/shape/topics_mem.png) no-repeat center left
 }
 .single-topics .ts-title {
  font-size:24px;
