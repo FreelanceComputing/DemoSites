@@ -1,6 +1,6 @@
 .elementor-10 .elementor-element.elementor-element-74b4374:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-74b4374>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/banner_bg.jpg);
+ background-image:url(wp-content/uploads/banner_bg.jpg);
  background-size:cover
 }
 .elementor-10 .elementor-element.elementor-element-74b4374>.elementor-background-overlay {
@@ -193,10 +193,10 @@
 }
 .elementor-10 .elementor-element.elementor-element-98c2f34:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-98c2f34>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker_bg.png)
+ background-image:url(wp-content/uploads/speaker_bg.png)
 }
 .elementor-10 .elementor-element.elementor-element-98c2f34>.elementor-background-overlay {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/home_speaker_memphis2.png);
+ background-image:url(wp-content/uploads/home_speaker_memphis2.png);
  background-position:center right;
  background-repeat:no-repeat;
  opacity:1;
@@ -274,7 +274,7 @@
 }
 .elementor-10 .elementor-element.elementor-element-0a06dd1:not(.elementor-motion-effects-element-type-background)>.elementor-element-populated,
 .elementor-10 .elementor-element.elementor-element-0a06dd1>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/cta_img.jpg);
+ background-image:url(wp-content/uploads/cta_img.jpg);
  background-position:center center;
  background-repeat:no-repeat;
  background-size:cover
@@ -293,7 +293,7 @@
 .elementor-10 .elementor-element.elementor-element-64a41e9:not(.elementor-motion-effects-element-type-background)>.elementor-element-populated,
 .elementor-10 .elementor-element.elementor-element-64a41e9>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
  background-color:rgba(129,48,229,0);
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/cta_bg.png);
+ background-image:url(wp-content/uploads/cta_bg.png);
  background-position:center right;
  background-repeat:no-repeat;
  background-size:cover
@@ -370,7 +370,7 @@
 }
 .elementor-10 .elementor-element.elementor-element-df410f9:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-df410f9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/pricing_img.jpg);
+ background-image:url(wp-content/uploads/pricing_img.jpg);
  background-position:center center;
  background-repeat:no-repeat;
  background-size:cover
@@ -412,12 +412,12 @@
 .elementor-10 .elementor-element.elementor-element-fa5745a:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-fa5745a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
  background-color:#f9fafc;
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/news_memphis2.png);
+ background-image:url(wp-content/uploads/news_memphis2.png);
  background-position:center right;
  background-repeat:no-repeat
 }
 .elementor-10 .elementor-element.elementor-element-fa5745a>.elementor-background-overlay {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/news_memphis1.png);
+ background-image:url(wp-content/uploads/news_memphis1.png);
  background-position:center left;
  background-repeat:no-repeat;
  opacity:1;
@@ -463,7 +463,7 @@
 }
 .elementor-10 .elementor-element.elementor-element-52e9a7a:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-52e9a7a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/sponsor_img.jpg)
+ background-image:url(wp-content/uploads/sponsor_img.jpg)
 }
 .elementor-10 .elementor-element.elementor-element-52e9a7a {
  transition:background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
@@ -530,7 +530,7 @@
  margin:50px 0 0 0
 }
 .elementor-10 .elementor-element.elementor-element-6453d7fd>.elementor-background-overlay {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/Direction_memphis1.png);
+ background-image:url(wp-content/uploads/Direction_memphis1.png);
  background-position:center right;
  background-repeat:no-repeat;
  opacity:.5;
@@ -590,7 +590,7 @@
 .elementor-10 .elementor-element.elementor-element-55b37d23:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-55b37d23>.elementor-motion-effects-container>.elementor-motion-effects-layer {
  background-color:rgba(12,0,3,.65);
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2019/01/book_seat_img.jpg);
+ background-image:url(wp-content/uploads/book_seat_img.jpg);
  background-position:center center;
  background-repeat:no-repeat;
  background-size:cover
@@ -653,7 +653,7 @@
 }
 .elementor-10 .elementor-element.elementor-element-64acc01a:not(.elementor-motion-effects-element-type-background)>.elementor-element-populated,
 .elementor-10 .elementor-element.elementor-element-64acc01a>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2019/01/newsletter_bg.jpg);
+ background-image:url(wp-content/uploads/newsletter_bg.jpg);
  background-repeat:no-repeat;
  background-size:cover
 }
