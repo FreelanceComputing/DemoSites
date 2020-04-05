@@ -99,6 +99,7 @@
     <Content Include="wp-content\themes\exhibz\assets\css\master.css" />
     <Content Include="wp-content\themes\exhibz\assets\css\owl.carousel.min.css" />
     <Content Include="wp-content\themes\exhibz\assets\css\woocommerce.css" />
+    <Content Include="wp-content\themes\exhibz\assets\fonts\icofont.svg" />
     <Content Include="wp-content\themes\exhibz\assets\images\logo\logo-light.png" />
     <Content Include="wp-content\themes\exhibz\assets\images\shape\title.png" />
     <Content Include="wp-content\themes\exhibz\assets\images\shape\topics_mem.png" />
@@ -158,10 +159,12 @@
     <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="wp-content\themes\exhibz\assets\fonts\icofont.eot" />
+    <Content Include="wp-content\themes\exhibz\assets\fonts\icofont.ttf" />
+    <Content Include="wp-content\themes\exhibz\assets\fonts\icofont.woff" />
+    <Content Include="wp-content\themes\exhibz\assets\fonts\icofont.woff2" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wp-content\themes\exhibz\assets\fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
