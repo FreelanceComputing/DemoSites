@@ -124,7 +124,7 @@
     <Content Include="wp-content\uploads\cta_bg.png" />
     <Content Include="wp-content\uploads\cta_img.jpg" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
-    <Content Include="wp-content\uploads\elementor\css\post-10.css" />
+    <Content Include="wp-content\uploads\elementor\css\post.css" />
     <Content Include="wp-content\uploads\gallery1.jpg" />
     <Content Include="wp-content\uploads\gallery2.jpg" />
     <Content Include="wp-content\uploads\gallery3.jpg" />
