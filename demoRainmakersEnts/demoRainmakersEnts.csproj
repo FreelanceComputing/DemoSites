@@ -80,8 +80,8 @@
     <Content Include="speaker\lucy-melisa\outer-index.html" />
     <Content Include="Web.config" />
     <Content Include="wp-content\plugins\contact-form-7\images\ajax-loader.gif" />
+    <Content Include="wp-content\plugins\contact-form-7\includes\css\styles.css" />
     <Content Include="wp-content\plugins\contact-form-7\includes\js\scripts-5.1.6.js" />
-    <Content Include="wp-content\plugins\contact-form-7\includes\styles.css" />
     <Content Include="wp-content\plugins\elementor\assets\css\frontend.min-2.7.5.css" />
     <Content Include="wp-content\plugins\elementor\assets\js\frontend-modules.min-2.7.5.js" />
     <Content Include="wp-content\plugins\elementor\assets\js\frontend.min-2.7.5.js" />
