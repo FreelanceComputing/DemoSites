@@ -70,14 +70,14 @@
   <ItemGroup>
     <Content Include="contact\index.html" />
     <Content Include="contact\outer-index.html" />
+    <Content Include="event\index.html" />
+    <Content Include="event\outer-index.html" />
     <Content Include="faq\index.html" />
     <Content Include="faq\outer-index.html" />
     <Content Include="gallery\index.html" />
     <Content Include="gallery\outer-index.html" />
     <Content Include="index.html" />
     <Content Include="outer-index.html" />
-    <Content Include="speaker\lucy-melisa\index.html" />
-    <Content Include="speaker\lucy-melisa\outer-index.html" />
     <Content Include="Web.config" />
     <Content Include="wp-content\plugins\contact-form-7\images\ajax-loader.gif" />
     <Content Include="wp-content\plugins\contact-form-7\includes\css\styles.css" />
