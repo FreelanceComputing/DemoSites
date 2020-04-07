@@ -70,8 +70,8 @@
   <ItemGroup>
     <Content Include="contact\index.html" />
     <Content Include="contact\outer-index.html" />
-    <Content Include="event\index.html" />
-    <Content Include="event\outer-index.html" />
+    <Content Include="event\1\index.html" />
+    <Content Include="event\1\outer-index.html" />
     <Content Include="faq\index.html" />
     <Content Include="faq\outer-index.html" />
     <Content Include="gallery\index.html" />
