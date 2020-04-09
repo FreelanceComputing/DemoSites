@@ -265,7 +265,7 @@ a:hover {
  padding:0
 }
 .header-transparent .navbar.navbar-light ul.navbar-nav>li>a {
- color:#fff
+ color:#1f1c46
 }
 .admin-bar .header-transparent {
  top:30px
@@ -508,7 +508,7 @@ a:hover {
  }
  .sticky.header-transparent,
  .sticky.header-classic {
-  background:rgba(26,24,49,.95)
+  background:rgba(143,220,216,.95)
  }
 }
 @-webkit-keyframes fadeInDown {
@@ -4634,7 +4634,7 @@ figure,
   background-image:none
  }
  .navbar.navbar-light ul.navbar-nav {
-  background:#222;
+  background:#8fdcd8;
   padding:20px;
   margin-top:2px
  }
