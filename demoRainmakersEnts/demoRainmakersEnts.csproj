@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="contact\index.html" />
     <Content Include="contact\outer-index.html" />
+    <Content Include="css\make.css" />
     <Content Include="event\1\index.html" />
     <Content Include="event\1\outer-index.html" />
     <Content Include="faq\index.html" />
