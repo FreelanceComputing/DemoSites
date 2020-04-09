@@ -132,6 +132,8 @@
     <Content Include="wp-content\uploads\gallery4.jpg" />
     <Content Include="wp-content\uploads\gallery5.jpg" />
     <Content Include="wp-content\uploads\gallery6.jpg" />
+    <Content Include="wp-content\uploads\landing_logo.jpg" />
+    <Content Include="wp-content\uploads\logo_light.png" />
     <Content Include="wp-content\uploads\speaker1.jpg" />
     <Content Include="wp-content\uploads\speaker2.jpg" />
     <Content Include="wp-content\uploads\speaker3.jpg" />
