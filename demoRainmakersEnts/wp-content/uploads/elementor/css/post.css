@@ -893,8 +893,11 @@
 /*END OF GALLERY*/
 .elementor-10 .elementor-element.elementor-element-74b4374:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-74b4374>.elementor-motion-effects-container>.elementor-motion-effects-layer {
- background-image:url(../../../../wp-content/uploads/banner_bg.jpg);
- background-size:cover
+    background-image: url(../../../../wp-content/uploads/landing_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f3ffff;
 }
 .elementor-10 .elementor-element.elementor-element-74b4374>.elementor-background-overlay {
  opacity:1;
@@ -1671,6 +1674,7 @@
 }
 @media(max-width:767px) {
  .elementor-10 .elementor-element.elementor-element-74b4374 {
+  background-size:cover;
   padding:120px 0 0 0
  }
  .elementor-10 .elementor-element.elementor-element-d8ef783>.elementor-element-populated {
