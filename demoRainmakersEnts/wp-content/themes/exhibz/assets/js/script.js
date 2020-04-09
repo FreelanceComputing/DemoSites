@@ -1,24 +1,8 @@
 jQuery( document ).ready( function($){
-   "use strict";
-
-   $(window).on('load', function () {
-      
-      setTimeout(() => {
-          $('#preloader').addClass('loaded');
-      }, 1000);
-   
-   });
-  // preloader close
-  $('.preloader-cancel-btn').on('click', function (e) {
-      e.preventDefault();
-      if (!($('#preloader').hasClass('loaded'))) {
-          $('#preloader').addClass('loaded');
-      }
-  });
-  
-             /**-------------------------------------------------
-     *Fixed HEader
-     *----------------------------------------------------**/
+	"use strict";
+//   /**-------------------------------------------------
+//    *Fixed HEader
+//    *----------------------------------------------------**/
     $(window).on('scroll', function () {
 
       /**Fixed header**/
