@@ -1450,7 +1450,7 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .ts-footer {
  background:#1a1831;
- padding:250px 0 50px;
+ padding:50px 0 50px;
  position:relative;
  overflow:hidden
 }
@@ -1476,9 +1476,9 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  border-radius:50%;
  -webkit-border-radius:50%;
  -ms-border-radius:50%;
- border:1px solid #525164;
+ border:1px solid #111;
  text-align:center;
- color:#fff;
+ color:#000;
  font-size:14px;
  padding:7px 0;
  margin:0 10px
@@ -1530,7 +1530,7 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .copyright-text p {
  margin-bottom:0;
- color:#a8a8ad
+ color:#111
 }
 .ts-intro-outcome {
  background-repeat:no-repeat;
@@ -4745,7 +4745,7 @@ figure,
   padding:0 20px
  }
  .ts-footer {
-  padding:290px 0 60px
+  padding:10px 0 20px
  }
  .ts-footer.ts-footer-item .newsletter-form {
   margin-top:40px
