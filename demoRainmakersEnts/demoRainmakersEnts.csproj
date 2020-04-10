@@ -75,6 +75,24 @@
     <Content Include="event\1\outer-index.html" />
     <Content Include="faq\index.html" />
     <Content Include="faq\outer-index.html" />
+    <Content Include="fontawesome-5.13.0\css\all.css" />
+    <Content Include="fontawesome-5.13.0\css\all.min.css" />
+    <Content Include="fontawesome-5.13.0\css\brands.css" />
+    <Content Include="fontawesome-5.13.0\css\brands.min.css" />
+    <Content Include="fontawesome-5.13.0\css\fontawesome.css" />
+    <Content Include="fontawesome-5.13.0\css\fontawesome.min.css" />
+    <Content Include="fontawesome-5.13.0\css\regular.css" />
+    <Content Include="fontawesome-5.13.0\css\regular.min.css" />
+    <Content Include="fontawesome-5.13.0\css\solid.css" />
+    <Content Include="fontawesome-5.13.0\css\solid.min.css" />
+    <Content Include="fontawesome-5.13.0\css\svg-with-js.css" />
+    <Content Include="fontawesome-5.13.0\css\svg-with-js.min.css" />
+    <Content Include="fontawesome-5.13.0\css\v4-shims.css" />
+    <Content Include="fontawesome-5.13.0\css\v4-shims.min.css" />
+    <Content Include="fontawesome-5.13.0\LICENSE.txt" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-brands-400.svg" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-regular-400.svg" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.svg" />
     <Content Include="gallery\index.html" />
     <Content Include="gallery\outer-index.html" />
     <Content Include="index.html" />
@@ -120,7 +138,6 @@
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\tilt.jquery.min.js" />
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\TweenMax.min.js" />
     <Content Include="wp-content\uploads\about-banner.jpg" />
-    <Content Include="wp-content\uploads\banner_bg.jpg" />
     <Content Include="wp-content\uploads\book_seat_img.jpg" />
     <Content Include="wp-content\uploads\cta_bg.png" />
     <Content Include="wp-content\uploads\cta_img.jpg" />
@@ -133,7 +150,11 @@
     <Content Include="wp-content\uploads\gallery5.jpg" />
     <Content Include="wp-content\uploads\gallery6.jpg" />
     <Content Include="wp-content\uploads\landing_logo.jpg" />
+    <Content Include="wp-content\uploads\latest_event.jpg" />
     <Content Include="wp-content\uploads\logo_light.png" />
+    <Content Include="wp-content\uploads\schedule_img_1.jpg" />
+    <Content Include="wp-content\uploads\schedule_img_2.jpg" />
+    <Content Include="wp-content\uploads\schedule_img_3.jpg" />
     <Content Include="wp-content\uploads\speaker1.jpg" />
     <Content Include="wp-content\uploads\speaker2.jpg" />
     <Content Include="wp-content\uploads\speaker3.jpg" />
@@ -149,6 +170,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fontawesome-5.13.0\webfonts\fa-brands-400.eot" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-brands-400.ttf" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-brands-400.woff" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-brands-400.woff2" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-regular-400.eot" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-regular-400.ttf" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-regular-400.woff" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-regular-400.woff2" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.eot" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.ttf" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.woff" />
+    <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
