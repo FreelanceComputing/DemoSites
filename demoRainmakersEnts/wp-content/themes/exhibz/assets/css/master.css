@@ -1663,13 +1663,10 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  overflow:hidden
 }
 .ts-speaker .speaker-img {
- width:255px;
- height:255px;
  position:relative;
  border-radius:50%;
  -webkit-border-radius:50%;
  -ms-border-radius:50%;
- overflow:hidden;
  margin:auto auto 20px
 }
 .ts-speaker .speaker-img img {
@@ -1690,7 +1687,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  width:100%;
  height:100%;
  content:'';
- background:rgba(59,29,130,.5);
  -o-transition:all 0.4s ease;
  transition:all 0.4s ease;
  -webkit-transition:all 0.4s ease;
