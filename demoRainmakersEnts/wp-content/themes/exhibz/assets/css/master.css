@@ -958,7 +958,8 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  max-width:18%;
  display:-webkit-box;
  display:-ms-flexbox;
- display:flex;
+ display:grid;
+ text-align:center;
  -webkit-box-align:center;
  -ms-flex-align:center;
  align-items:center;
@@ -970,17 +971,17 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .schedule-listing .schedule-slot-info {
  position:relative;
- padding:35px 40px 35px 170px;
+ padding:35px 40px 35px 200px;
  border:1px dashed #e5e5e5;
  border-left:none;
  width:100%
 }
 .schedule-listing .schedule-slot-info .schedule-slot-speakers {
  position:absolute;
- left:40px;
+ left:10px;
  top:0;
- height:80px;
- width:80px;
+ height:180px;
+ width:180px;
  border-radius:50%;
  -webkit-border-radius:50%;
  -ms-border-radius:50%;
@@ -4726,7 +4727,8 @@ figure,
   padding:20px 35px
  }
  .schedule-listing .schedule-slot-info {
-  padding:35px 40px 35px 35px;
+  padding:35px 35px 35px 35px;
+  text-align:center;
   border-left:1px dashed #e5e5e5
  }
  .schedule-listing .schedule-slot-info .schedule-slot-speakers,
@@ -4860,7 +4862,7 @@ figure,
 @media (max-width:767px) {
  .schedule-listing .schedule-slot-info .schedule-slot-speakers,
  .schedule-listing .schedule-slot-info .multi-speaker {
-  display:block;
+  display:inline;
   position:static;
   margin:0 0 20px
  }
