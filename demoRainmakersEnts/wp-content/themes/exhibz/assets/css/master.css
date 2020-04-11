@@ -112,7 +112,7 @@ a:hover {
  height:auto
 }
 .navbar-toggler .navbar-toggler-icon i {
- color:#ed3815;
+ color:#fff;
  font-weight:700;
  font-size:22px
 }
@@ -265,7 +265,7 @@ a:hover {
  padding:0
 }
 .header-transparent .navbar.navbar-light ul.navbar-nav>li>a {
- color:#1c1c24
+ color:#1f1c46
 }
 .admin-bar .header-transparent {
  top:30px
@@ -508,7 +508,7 @@ a:hover {
  }
  .sticky.header-transparent,
  .sticky.header-classic {
-  background:rgba(237,56,21,.95)
+  background:rgba(143,220,216,.95)
  }
 }
 @-webkit-keyframes fadeInDown {
@@ -652,7 +652,7 @@ a:hover {
  -webkit-border-radius:50%;
  -ms-border-radius:50%;
  background:#e7015e;
- color:#1c1c24;
+ color:#fff;
  display:block;
  text-align:left;
  font-size:16px;
@@ -4631,7 +4631,7 @@ figure,
   background-image:none
  }
  .navbar.navbar-light ul.navbar-nav {
-  background:#ed3815;
+  background:#8fdcd8;
   padding:20px;
   margin-top:2px
  }

@@ -95,6 +95,7 @@ body,
 .ticket-btn.btn:hover,
 .schedule-listing .schedule-slot-time,
 .btn-primary,
+.navbar-toggler,
 .schedule-tabs-item ul li:before,
 .btn,
 .btn-primary,
@@ -108,15 +109,7 @@ body,
 .testimonial-thumb .quote-icon,
 .testimonial-item .testimonial-body .client-info .client-name::before,
 .ts-schedule-alt .schedule-listing .multi-speaker-2 .speaker-content .schedule-speaker {
-  background: #ed3815
-}
-
-.navbar-toggler{
-  background: transparent
-}
-
-.navbar-light .navbar-toggler{
-  border-color: #1c1c24
+  background: #232050
 }
 
 .ts-map-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active a,
@@ -127,7 +120,7 @@ body,
 .post-navigation span:hover,
 .post-navigation h3:hover,
 .footer-area .ts-footer-3 .footer-widget h3 {
-    color: #232050
+  color: #232050
 }
 
 .ts-map-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active a,
