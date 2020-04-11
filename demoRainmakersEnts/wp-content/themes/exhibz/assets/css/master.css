@@ -112,7 +112,7 @@ a:hover {
  height:auto
 }
 .navbar-toggler .navbar-toggler-icon i {
- color:#ed3815;
+ color:#d81972;
  font-weight:700;
  font-size:22px
 }
@@ -508,7 +508,7 @@ a:hover {
  }
  .sticky.header-transparent,
  .sticky.header-classic {
-  background:rgba(237,56,21,.95)
+  background:rgba(216,25,114,.95)
  }
 }
 @-webkit-keyframes fadeInDown {
@@ -4631,7 +4631,7 @@ figure,
   background-image:none
  }
  .navbar.navbar-light ul.navbar-nav {
-  background:#ed3815;
+  background:#d81972;
   padding:20px;
   margin-top:2px
  }
