@@ -206,5 +206,11 @@ blockquote,
 }
 
 .schedule-background {
-    background-color: #f9fafc
+  background-color: #f9fafc
+}
+
+@media(max-width:767px), (max-width:1024px){
+  .sidebar-widgets .form-group :first-child{
+    margin-bottom:15px
+  }
 }
