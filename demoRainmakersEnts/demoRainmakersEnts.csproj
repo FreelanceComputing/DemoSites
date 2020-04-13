@@ -144,11 +144,17 @@
     <Content Include="wp-content\uploads\elementor\css\global.css" />
     <Content Include="wp-content\uploads\elementor\css\post.css" />
     <Content Include="wp-content\uploads\gallery1.jpg" />
+    <Content Include="wp-content\uploads\gallery10.jpg" />
+    <Content Include="wp-content\uploads\gallery11.jpg" />
+    <Content Include="wp-content\uploads\gallery12.jpg" />
     <Content Include="wp-content\uploads\gallery2.jpg" />
     <Content Include="wp-content\uploads\gallery3.jpg" />
     <Content Include="wp-content\uploads\gallery4.jpg" />
     <Content Include="wp-content\uploads\gallery5.jpg" />
     <Content Include="wp-content\uploads\gallery6.jpg" />
+    <Content Include="wp-content\uploads\gallery7.jpg" />
+    <Content Include="wp-content\uploads\gallery8.jpg" />
+    <Content Include="wp-content\uploads\gallery9.jpg" />
     <Content Include="wp-content\uploads\landing_logo.jpg" />
     <Content Include="wp-content\uploads\latest_event.jpg" />
     <Content Include="wp-content\uploads\logo_light.png" />
