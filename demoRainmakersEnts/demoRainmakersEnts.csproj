@@ -107,6 +107,12 @@
     <Content Include="gallery\img\gallery9.jpg" />
     <Content Include="gallery\index.html" />
     <Content Include="gallery\outer-index.html" />
+    <Content Include="img\landing_logo.jpg" />
+    <Content Include="img\latest_event.jpg" />
+    <Content Include="img\logo_light.png" />
+    <Content Include="img\schedule_img_1.jpg" />
+    <Content Include="img\schedule_img_2.jpg" />
+    <Content Include="img\schedule_img_3.jpg" />
     <Content Include="index.html" />
     <Content Include="outer-index.html" />
     <Content Include="Web.config" />
@@ -155,12 +161,6 @@
     <Content Include="wp-content\uploads\cta_img.jpg" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
     <Content Include="wp-content\uploads\elementor\css\post.css" />
-    <Content Include="wp-content\uploads\landing_logo.jpg" />
-    <Content Include="wp-content\uploads\latest_event.jpg" />
-    <Content Include="wp-content\uploads\logo_light.png" />
-    <Content Include="wp-content\uploads\schedule_img_1.jpg" />
-    <Content Include="wp-content\uploads\schedule_img_2.jpg" />
-    <Content Include="wp-content\uploads\schedule_img_3.jpg" />
     <Content Include="wp-content\uploads\speaker1.jpg" />
     <Content Include="wp-content\uploads\speaker2.jpg" />
     <Content Include="wp-content\uploads\speaker3.jpg" />
