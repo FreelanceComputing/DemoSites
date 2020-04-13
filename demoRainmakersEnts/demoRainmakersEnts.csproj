@@ -171,7 +171,6 @@
     <Content Include="wp-includes\js\jquery\jquery-1.12.4-wp.js" />
     <Content Include="wp-includes\js\jquery\jquery-migrate.min-1.4.1.js" />
     <Content Include="wp-includes\js\jquery\ui\position.min-1.11.4.js" />
-    <Content Include="wp-includes\js\wp-embed.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
