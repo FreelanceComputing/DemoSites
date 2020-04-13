@@ -4889,8 +4889,8 @@
 						slidesWrapper: "swiper-wrapper",
 						prevButton: "elementor-swiper-button elementor-swiper-button-prev",
 						nextButton: "elementor-swiper-button elementor-swiper-button-next",
-						prevButtonIcon: "eicon-chevron-left",
-						nextButtonIcon: "eicon-chevron-right",
+						prevButtonIcon: "fas fa-chevron-left",
+						nextButtonIcon: "fas fa-chevron-right",
 						slide: "swiper-slide"
 					}
 				},
@@ -4926,7 +4926,7 @@
 			{
 				className: "elementor-lightbox",
 				closeButton: !0,
-				closeButtonClass: "eicon-close",
+				closeButtonClass: "fas fa-times",
 				selectors:
 				{
 					preventClose: "." + this.getSettings("classes.preventClose")
