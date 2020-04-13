@@ -107,6 +107,7 @@
     <Content Include="gallery\img\gallery9.jpg" />
     <Content Include="gallery\index.html" />
     <Content Include="gallery\outer-index.html" />
+    <Content Include="img\banner.jpg" />
     <Content Include="img\landing_logo.jpg" />
     <Content Include="img\latest_event.jpg" />
     <Content Include="img\logo_light.png" />
