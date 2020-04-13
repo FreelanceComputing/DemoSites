@@ -381,12 +381,6 @@
 /*END OF FAQ*/
 
 /*CONTACT STARTS*/
-.elementor-1225 .elementor-element.elementor-element-d2832ba:not(.elementor-motion-effects-element-type-background),.elementor-1225 .elementor-element.elementor-element-d2832ba>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-  background-image: url(http://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/home_schedule_memphis1.png);
-  background-position: center right;
-  background-repeat: no-repeat
-}
-
 .elementor-1225 .elementor-element.elementor-element-d2832ba {
   transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
   padding: 85px 0 85px 0
