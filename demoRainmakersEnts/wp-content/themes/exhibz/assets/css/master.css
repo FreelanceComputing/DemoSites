@@ -2290,11 +2290,13 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .page-banner-area {
  position:relative;
- min-height:400px;
+ min-height:300px;
  color:#fff;
- background-position:50% 50%;
- -webkit-background-size:cover;
- background-size:cover;
+ background-repeat: no-repeat;
+ background-color: #f3ffff;
+ background-position:center;
+ -webkit-background-size:contain;
+ background-size:contain;
  -webkit-backface-visibility:hidden
 }
 .page-banner-title {
@@ -4609,6 +4611,9 @@ figure,
  }
  .btn {
   font-size:14px
+ }
+ .page-banner-area{
+  min-height:250px;
  }
  .banner-title {
   font-size:40px;
