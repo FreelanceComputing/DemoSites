@@ -111,6 +111,13 @@ body,
   background: #00c1c1
 }
 
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-item .elementor-tab-content.elementor-clearfix.elementor-active{
+  background:unset;
+  border-color:#00c1c1;
+  border-width:5px;
+  border-style:solid
+}
+
 .navbar-toggler{
   background: transparent
 }
