@@ -1884,13 +1884,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 .ts-single-speaker .speaker-content .speaker-exhibs_photo {
  margin-bottom:20px
 }
-.ts-single-speaker .speaker-content .speaker-exhibs_photo img {
- border-radius:50%;
- -webkit-border-radius:50%;
- -ms-border-radius:50%;
- width:280px;
- height:280px
-}
 .ts-single-speaker .speaker-content h2 {
  font-size:28px
 }
