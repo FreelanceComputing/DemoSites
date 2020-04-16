@@ -2067,7 +2067,7 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .pricing-item {
  position:relative;
- max-width:320px;
+ max-width:250px;
  margin:auto
 }
 .pricing-item .pricing-dot {
@@ -2104,7 +2104,7 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 .ts-pricing-box .ts-progress .ts-progress-inner {
  background-image:-webkit-linear-gradient(306deg,#321575 0%,#8d0b93 51%,#ff0066 100%,#ff057c 100%);
  background-image:-o-linear-gradient(306deg,#321575 0%,#8d0b93 51%,#ff0066 100%,#ff057c 100%);
- background-image:linear-gradient(144deg,#321575 0%,#8d0b93 51%,#ff0066 100%,#ff057c 100%);
+ background-image:linear-gradient(144deg,#1f1f1f 0%,#5d5d5d 51%,#9a9a9a 100%,#d8d8d8 100%);
  height:100%
 }
 .ts-pricing-box .promotional-code .promo-code-text {
@@ -2251,14 +2251,14 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 .ts-pricing-box .ts-pricing-header .ts-pricing-name {
  font-size:20px;
  font-weight:800;
- color:#3b1d82;
+ color:#1c1c24;
  text-transform:uppercase;
  margin-bottom:15px
 }
 .ts-pricing-box .ts-pricing-header .ts-pricing-price {
  font-size:58px;
  font-weight:900;
- color:#3b1d82;
+ color:#00c1c1;
  margin-bottom:20px
 }
 .ts-pricing-box .ts-pricing-header .ts-pricing-price span {
