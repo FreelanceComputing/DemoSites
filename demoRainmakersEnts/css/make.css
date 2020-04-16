@@ -31,19 +31,6 @@ h4 {
   color:#1c1c24
 }
 
-a,
-.post-meta span i,
-.entry-header .entry-title a:hover,
-.sidebar ul li a:hover,
-.navbar.navbar-light ul.navbar-nav>li ul.dropdown-menu li:hover a,
-.elementor-widget-exhibz-latestnews .post:hover .post-body .entry-header .entry-title a,
-.btn-link:hover,
-.footer-menu ul li a:hover,
-.schedule-tabs-item .schedule-listing-item .schedule-slot-time,
-.navbar.navbar-light ul.navbar-nav>li ul.dropdown-menu li .dropdown-item.active {
-  color: #ff007a
-}
-
 a:hover,
 .navbar.navbar-light ul.navbar-nav>li ul.dropdown-menu li.active a {
   color: #1c1c24
