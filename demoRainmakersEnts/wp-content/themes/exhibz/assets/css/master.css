@@ -3918,7 +3918,7 @@ a img.aligncenter {
 }
 .post-meta {
  font-size:13px;
- padding:20px 0 15px;
+ padding-bottom:15px;
  text-transform:uppercase;
  color:#5a5a5a
 }
