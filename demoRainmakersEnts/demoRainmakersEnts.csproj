@@ -69,17 +69,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact\index.html" />
-    <Content Include="contact\outer-index.html" />
     <Content Include="css\make.css" />
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
-    <Content Include="event\1\outer-index.html" />
     <Content Include="event\2\img\2.jpg" />
     <Content Include="event\2\index.html" />
     <Content Include="event\3\img\3.jpg" />
     <Content Include="event\3\index.html" />
     <Content Include="faq\index.html" />
-    <Content Include="faq\outer-index.html" />
     <Content Include="fontawesome-5.13.0\css\all.css" />
     <Content Include="fontawesome-5.13.0\css\all.min.css" />
     <Content Include="fontawesome-5.13.0\css\brands.css" />
@@ -111,7 +108,6 @@
     <Content Include="gallery\img\gallery8.jpg" />
     <Content Include="gallery\img\gallery9.jpg" />
     <Content Include="gallery\index.html" />
-    <Content Include="gallery\outer-index.html" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\dot.png" />
     <Content Include="img\landing_logo.jpg" />
@@ -121,7 +117,6 @@
     <Content Include="img\schedule_img_2.jpg" />
     <Content Include="img\schedule_img_3.jpg" />
     <Content Include="index.html" />
-    <Content Include="outer-index.html" />
     <Content Include="Web.config" />
     <Content Include="wp-content\plugins\contact-form-7\images\ajax-loader.gif" />
     <Content Include="wp-content\plugins\contact-form-7\includes\css\styles.css" />
