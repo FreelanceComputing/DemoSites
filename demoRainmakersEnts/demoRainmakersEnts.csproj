@@ -157,17 +157,8 @@
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\main.js" />
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\tilt.jquery.min.js" />
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\TweenMax.min.js" />
-    <Content Include="wp-content\uploads\about-banner.jpg" />
-    <Content Include="wp-content\uploads\book_seat_img.jpg" />
-    <Content Include="wp-content\uploads\cta_bg.png" />
-    <Content Include="wp-content\uploads\cta_img.jpg" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
     <Content Include="wp-content\uploads\elementor\css\post.css" />
-    <Content Include="wp-content\uploads\speaker1.jpg" />
-    <Content Include="wp-content\uploads\speaker2.jpg" />
-    <Content Include="wp-content\uploads\speaker3.jpg" />
-    <Content Include="wp-content\uploads\speaker4.jpg" />
-    <Content Include="wp-content\uploads\sponsor-6.png" />
     <Content Include="wp-includes\css\dist\block-library\style.min.css" />
     <Content Include="wp-includes\js\jquery\jquery-1.12.4-wp.js" />
     <Content Include="wp-includes\js\jquery\jquery-migrate.min-1.4.1.js" />
