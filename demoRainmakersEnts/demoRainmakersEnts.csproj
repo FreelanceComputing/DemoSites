@@ -74,6 +74,10 @@
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
     <Content Include="event\1\outer-index.html" />
+    <Content Include="event\2\img\2.jpg" />
+    <Content Include="event\2\index.html" />
+    <Content Include="event\3\img\3.jpg" />
+    <Content Include="event\3\index.html" />
     <Content Include="faq\index.html" />
     <Content Include="faq\outer-index.html" />
     <Content Include="fontawesome-5.13.0\css\all.css" />
