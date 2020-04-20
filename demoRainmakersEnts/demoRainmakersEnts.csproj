@@ -117,6 +117,15 @@
     <Content Include="img\schedule_img_2.jpg" />
     <Content Include="img\schedule_img_3.jpg" />
     <Content Include="index.html" />
+    <Content Include="js\ajax.js" />
+    <Content Include="js\jquery-3.5.0.min.js" />
+    <Content Include="PHPMailer\get_oauth_token.php" />
+    <Content Include="PHPMailer\src\Exception.php" />
+    <Content Include="PHPMailer\src\OAuth.php" />
+    <Content Include="PHPMailer\src\PHPMailer.php" />
+    <Content Include="PHPMailer\src\POP3.php" />
+    <Content Include="PHPMailer\src\SMTP.php" />
+    <Content Include="post.php" />
     <Content Include="Web.config" />
     <Content Include="wp-content\plugins\contact-form-7\images\ajax-loader.gif" />
     <Content Include="wp-content\plugins\contact-form-7\includes\css\styles.css" />
@@ -181,6 +190,12 @@
     <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.woff" />
     <Content Include="fontawesome-5.13.0\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
+    <Content Include="PHPMailer\COMMITMENT" />
+    <Content Include="PHPMailer\composer.json" />
+    <Content Include="PHPMailer\LICENSE" />
+    <Content Include="PHPMailer\README.md" />
+    <Content Include="PHPMailer\SECURITY.md" />
+    <Content Include="PHPMailer\VERSION" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

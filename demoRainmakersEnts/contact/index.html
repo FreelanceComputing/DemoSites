@@ -30,6 +30,8 @@
     <link data-minify="1" rel='stylesheet' id='exhibz-style-css' href='../wp-content/themes/exhibz/assets/css/master.css' type='text/css' media='all' />
     <link data-minify="1" rel='stylesheet' id='exhibz-style-inline-css' href='../css/make.css' type='text/css' media='all' />
 
+    <script type='text/javascript' src='../js/jquery-3.5.0.min.js'></script>
+    <script type='text/javascript' src='../js/ajax.js'></script>
     <script type='text/javascript' src='../wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>
     <script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min-1.4.1.js'></script>
     <script type='text/javascript' src='../wp-content/themes/exhibz/core/parallax/assets/js/attrparallax.js'></script>
@@ -191,21 +193,25 @@
                                                         <div class="elementor-shortcode">
                                                             <div role="form" class="wpcf7" id="wpcf7-f1574-p1225-o1" lang="en-US" dir="ltr">
                                                                 <div class="screen-reader-response"></div>
-                                                                <form action="../contact/#wpcf7-f1574-p1225-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                                <form id="contactForm" method="post" class="wpcf7-form">
                                                                     <div style="display: none;">
-                                                                        <input type="hidden" name="_wpcf7" value="1574" />
+                                                                        <!--input type="hidden" name="_wpcf7" value="1574" />
                                                                         <input type="hidden" name="_wpcf7_version" value="5.1.6" />
                                                                         <input type="hidden" name="_wpcf7_locale" value="en_US" />
                                                                         <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1574-p1225-o1" />
-                                                                        <input type="hidden" name="_wpcf7_container_post" value="1225" />
+                                                                        <input type="hidden" name="_wpcf7_container_post" value="1225" /-->
                                                                     </div>
                                                                     <div class="ts-contact-form sidebar-widgets">
                                                                         <div class="ts-form-group ">
                                                                             <div class="ts-form contactMe">
                                                                                 <div class="row form-group">
-                                                                                    <div class="col-lg-6"> <span class="wpcf7-form-control-wrap text-49"><input type="text" name="text-49" value="" size="40" class="wpcf7-form-control wpcf7-text form-control field" aria-invalid="false" placeholder="First Name" /></span></div>
+                                                                                    <div class="col-lg-6">
+                                                                                        <span class="wpcf7-form-control-wrap text-49">
+                                                                                            <input required pattern=".{5,}" title="Your name is too short" id="contactName" name="alias" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text form-control field" aria-invalid="false" placeholder="First Name" />
+                                                                                            <span id="displayNameError" style="display:none; color:red">Please enter a name</span>
+                                                                                        </span>
+                                                                                    </div>
                                                                                     <div class="col-lg-6"><span class="wpcf7-form-control-wrap tel-709"><input type="tel" name="tel-709" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control field" aria-required="true" aria-invalid="false" placeholder="Phone" /></span></div>
-                                                                                    </p>
                                                                                 </div>
                                                                                 <div class="row form-group">
                                                                                     <div class="col-lg-6"> <span class="wpcf7-form-control-wrap email-980"><input type="email" name="email-980" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control field" aria-required="true" aria-invalid="false" placeholder="Your Email" /></span></div>
