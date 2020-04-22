@@ -191,45 +191,60 @@
                                                 <div class="elementor-element elementor-element-ead9de5 elementor-widget elementor-widget-shortcode" data-id="ead9de5" data-element_type="widget" data-widget_type="shortcode.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-shortcode">
-                                                            <div role="form" class="wpcf7" id="wpcf7-f1574-p1225-o1" lang="en-US" dir="ltr">
+                                                            <div role="form" class="wpcf7" dir="ltr">
                                                                 <div class="screen-reader-response"></div>
                                                                 <form id="contactForm" method="post" class="wpcf7-form">
                                                                     <div style="display: none;">
-                                                                        <!--input type="hidden" name="_wpcf7" value="1574" />
-                                                                        <input type="hidden" name="_wpcf7_version" value="5.1.6" />
-                                                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1574-p1225-o1" />
-                                                                        <input type="hidden" name="_wpcf7_container_post" value="1225" /-->
+                                                                        <input type="hidden" name="rat" value="1574" />
+                                                                        <input type="hidden" name="rat_version" value="1.0.0" />
+                                                                        <input type="hidden" name="rat_locale" value="en_GB" />
+                                                                        <input type="hidden" name="rat_unit_tag" value="0" />
+                                                                        <input type="hidden" name="rat_container_post" value="1225" />
                                                                     </div>
                                                                     <div class="ts-contact-form sidebar-widgets">
                                                                         <div class="ts-form-group ">
                                                                             <div class="ts-form contactMe">
                                                                                 <div class="row form-group">
                                                                                     <div class="col-lg-6">
-                                                                                        <span class="wpcf7-form-control-wrap text-49">
-                                                                                            <input required pattern=".{5,}" title="Your name is too short" id="contactName" name="alias" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text form-control field" aria-invalid="false" placeholder="First Name" />
-                                                                                            <span id="displayNameError" style="display:none; color:red">Please enter a name</span>
+                                                                                        <span style="position:relative;">
+                                                                                            <input id="contactName" name="alias" required pattern="[a-zA-Z\s]{5,}" type="text" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Full Name" />
+                                                                                            <span id="displayNameError" style="display:none; color:red">Please enter a valid name</span>
                                                                                         </span>
                                                                                     </div>
-                                                                                    <div class="col-lg-6"><span class="wpcf7-form-control-wrap tel-709"><input type="tel" name="tel-709" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control field" aria-required="true" aria-invalid="false" placeholder="Phone" /></span></div>
+                                                                                    <div class="col-lg-6">
+                                                                                        <span style="position:relative;">
+                                                                                            <input id="contactNumber" name="number" required pattern="[0-9]{11}" type="tel" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Phone" />
+                                                                                            <span id="displayNumberError" style="display:none; color:red">Please enter a valid number</span>
+                                                                                        </span>
+                                                                                    </div>
                                                                                 </div>
                                                                                 <div class="row form-group">
-                                                                                    <div class="col-lg-6"> <span class="wpcf7-form-control-wrap email-980"><input type="email" name="email-980" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control field" aria-required="true" aria-invalid="false" placeholder="Your Email" /></span></div>
-                                                                                    <div class="col-lg-6"><span class="wpcf7-form-control-wrap text-49"><input type="text" name="text-49" value="" size="40" class="wpcf7-form-control wpcf7-text form-control field" aria-invalid="false" placeholder="Subject" /></span></div>
-                                                                                    </p>
+                                                                                    <div class="col-lg-6">
+                                                                                        <span style="position:relative;">
+                                                                                            <input id="contactEmail" name="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" type="text" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Your Email" />
+                                                                                            <span id="displayEmailError" style="display:none; color:red">Please enter a valid email</span>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6">
+                                                                                        <span style="position:relative;">
+                                                                                            <input id="contactSubject" name="subject" required pattern=".{5,}" type="text" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Subject" />
+                                                                                            <span id="displaySubjectError" style="display:none; color:red">Please enter a valid subject</span>
+                                                                                        </span>
+                                                                                    </div>
                                                                                 </div>
-                                                                                <p><span class="wpcf7-form-control-wrap textarea-463"><textarea name="textarea-463" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control message-box field" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span></p>
-                                                                                <div class="ts-btn-wraper text-center">
-                                                                                    <input type="submit" value="Contact Us" class="wpcf7-form-control wpcf7-submit btn" />
-                                                                                </div>
-                                                                                <div class="msg"></div>
+                                                                                <p>
+                                                                                    <span style="position:relative;">
+                                                                                        <textarea id="contactMessage" name="message" required cols="40" rows="10" class="wpcf7-form-control form-control message-box field" placeholder="Message"></textarea>
+                                                                                        <span id="displayMessageError" style="display:none; color:red">Please enter a valid message</span>
+                                                                                    </span>
                                                                                 </p>
+                                                                                <div class="ts-btn-wraper text-center">
+                                                                                    <input type="submit" value="Contact Us" class="wpcf7-form-control btn" />
+                                                                                </div>
                                                                             </div>
-                                                                            </p>
                                                                         </div>
-                                                                        </p>
                                                                     </div>
-                                                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                                    <div id="displaySuccess" style="display:none;border:2px solid #398f14"><p>Thank you. Your message has been sent successfully.</p></div>
                                                                 </form>
                                                             </div>
                                                         </div>
