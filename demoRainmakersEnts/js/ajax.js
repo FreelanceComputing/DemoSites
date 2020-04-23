@@ -1,12 +1,55 @@
+var year = "2020";
+var month = "04";
+var version = "1.0.0";
+var locale = "en_GB";
+var resetForm = function (form) {
+	form.reset();
+	form.rat_year.value = year;
+	form.rat_month.value = month;
+	form.rat_version.value = version;
+	form.rat_locale.value = locale;
+};
+var validateHiddenInputs = function (form) {
+	if (form.rat_year.value != year) { return false; }
+	if (form.rat_month.value != month) { return false; }
+	if (form.rat_version.value != version) { return false; }
+	if (form.rat_locale.value != year) { return false; }
+	return true;
+};
+var validateTextInput = function (field, error) {
+	var trimmed = field.value.trim();
+	if (trimmed.length < 5) {
+		field.value = trimmed;
+		error.css("display", "");
+		return false;
+	}
+	return true;
+};
+var addInputEvtListener = function (field, error) {
+	field.addEventListener("input", function (event) {
+		if (field.validity.patternMismatch) {
+			error.css("display", "");
+			/*if (!form.hasClass("invalid")) {
+				form.addClass("invalid");
+			}*/
+		} else {
+			error.css("display", "none");
+			/*if (form.hasClass("invalid")) {
+				form.removeClass("invalid");
+			}*/
+		}
+	});
+}
+
 $(document).ready(function () {
 	// reset forms on page refresh
 	var contactForm = $("#contactForm");
 	if (contactForm.length > 0) {
-		contactForm[0].reset();
+		resetForm(contactForm[0]);
 	}
 	var interestForm = $("#interestForm");
 	if (interestForm.length > 0) {
-		interestForm[0].reset();
+		resetForm(interestForm[0]);
 	}
 });
 
@@ -15,93 +58,46 @@ $(function () {
 	if (form.length < 1) { return; }
 
 	// grab variables
-	var contactForm = form[0];
-	var nameError = $("#displayNameError");
-	var numberError = $("#displayNumberError");
-	var emailError = $("#displayEmailError");
+	var contactForm  = form[0];
+	var nameError    = $("#displayNameError");
+	var numberError  = $("#displayNumberError");
+	var emailError   = $("#displayEmailError");
 	var subjectError = $("#displaySubjectError");
 	var messageError = $("#displayMessageError");
-	var sendSuccess = $("#displaySuccess");
+	var sendSuccess  = $("#displaySuccess");
+	
+	// add input event listeners
+	addInputEvtListener(contactForm.alias,   nameError);
+	addInputEvtListener(contactForm.number,  numberError);
+	addInputEvtListener(contactForm.email,   emailError);
+	addInputEvtListener(contactForm.subject, subjectError);
 
-	var addInputEvtListeners = function () {
-		contactForm.alias.addEventListener("input", function (event) {
-			if (contactForm.alias.validity.patternMismatch) {
-				nameError.css("display", "");
-				if (!form.hasClass("invalid")) {
-					form.addClass("invalid");
-				}
-			} else {
-				nameError.css("display", "none");
-				if (form.hasClass("invalid")) {
-					form.removeClass("invalid");
-				}
-			}
-		});
-		contactForm.number.addEventListener("input", function (event) {
-			if (contactForm.number.validity.patternMismatch) {
-				numberError.css("display", "");
-				if (!form.hasClass("invalid")) {
-					form.addClass("invalid");
-				}
-			} else {
-				numberError.css("display", "none");
-				if (form.hasClass("invalid")) {
-					form.removeClass("invalid");
-				}
-			}
-		});
-		contactForm.email.addEventListener("input", function (event) {
-			if (contactForm.email.validity.patternMismatch) {
-				emailError.css("display", "");
-				if (!form.hasClass("invalid")) {
-					form.addClass("invalid");
-				}
-			} else {
-				emailError.css("display", "none");
-				if (form.hasClass("invalid")) {
-					form.removeClass("invalid");
-				}
-			}
-		});
-		contactForm.subject.addEventListener("input", function (event) {
-			if (contactForm.subject.validity.patternMismatch) {
-				subjectError.css("display", "");
-				if (!form.hasClass("invalid")) {
-					form.addClass("invalid");
-				}
-			} else {
-				subjectError.css("display", "none");
-				if (form.hasClass("invalid")) {
-					form.removeClass("invalid");
-				}
-			}
-		});
-		contactForm.message.addEventListener("input", function (event) {
-			if (contactForm.message.value.length > 0 && contactForm.message.value.length < 5) {
-				messageError.css("display", "");
-				if (!form.hasClass("invalid")) {
-					form.addClass("invalid");
-				}
-			} else {
-				messageError.css("display", "none");
-				if (form.hasClass("invalid")) {
-					form.removeClass("invalid");
-				}
-			}
-		});
-	};
-	// add event input listeners
-	addInputEvtListeners();
+	// add message event listener
+	contactForm.message.addEventListener("input", function (event) {
+		if (contactForm.message.value.length > 0 && contactForm.message.value.length < 5) {
+			messageError.css("display", "");
+		} else {
+			messageError.css("display", "none");
+		}
+	});
 
 	form.submit(function (event) {
 		// Stop the browser from submitting the form.
 		event.preventDefault();
 
-		// Validate (name, subject and message) inputs
-		validateTextInputs();
-
-		// implement this
-		validateHiddenInputs();
+		// Validate inputs
+		if (!validateTextInput(contactForm.alias, nameError)) {
+			return;
+		}
+		if (!validateTextInput(contactForm.subject, subjectError)) {
+			return;
+		}
+		if (!validateTextInput(contactForm.message, messageError)) {
+			return;
+		}
+		if (!validateHiddenInputs(contactForm)) {
+			return;
+		}
 
 		// Serialize the form data.
 		var formData = {};
@@ -117,27 +113,5 @@ $(function () {
 	});
 	// TODO: The rest of the code will go here...
 
-
-	var validateTextInputs = function () {
-		var trimmedName = contactForm.alias.value.trim();
-		if (trimmedName.length < 5) {
-			contactForm.alias.value = trimmedName;
-			nameError.css("display", "");
-			return;
-		}
-		var trimmedSubj = contactForm.subject.value.trim();
-		if (trimmedSubj.length < 5) {
-			contactForm.subject.value = trimmedSubj;
-			subjectError.css("display", "");
-			return;
-		}
-		var trimmedMess = contactForm.message.value.trim();
-		if (trimmedMess.length < 5) {
-			contactForm.message.value = trimmedMess;
-			messageError.css("display", "");
-			return;
-		}
-	};
-
-	var validateHiddenInputs = function () { };
+	
 });
