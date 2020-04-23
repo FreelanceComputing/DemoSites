@@ -90,6 +90,9 @@ $(function () {
 		// Stop the browser from submitting the form.
 		event.preventDefault();
 
+		// disable the submit button
+		//form.submit(false);
+
 		// Validate inputs
 		if (!validateTextInput(name, nameError)) {
 			return;
@@ -121,14 +124,25 @@ $(function () {
 			.done(function (data, status, xhr) {
 				//console.log("data:\n", data); //console.log("status:\n", status); //console.log("xhr:\n", xhr);
 				resetForm(contactForm);
+				sendOutcome.find("h2").text("Thank you.");
 				sendOutcome.find("p").text("Thank you. Your message has been sent successfully.");
-				sendOutcome.css("display", "");
+				sendOutcome.find("i").click(function (event) {
+					sendOutcome.css("display", "none");
+				});
+				sendOutcome.css("display", "block");
 			})
 			.fail(function (xhr, status, error) {
 				//console.log("xhr response text:\n", xhr.responseText); //console.log("status:\n", status); //console.log("error:\n", error);
 				resetForm(contactForm);
+				sendOutcome.find("h2").text("ERROR!");
 				sendOutcome.find("p").text("Unfortunately your message couldn't be sent due to an internal server error.");
-				sendOutcome.css("display", "");
+				sendOutcome.find("i").click(function (event) {
+					sendOutcome.css("display", "none");
+				});
+				sendOutcome.css("display", "block");
 			});
+		sendOutcome.find("h2").text("Processing . . .");
+		sendOutcome.find("p").text("Please wait while we send your message");
+		sendOutcome.css("display", "block");
 	});	
 });
