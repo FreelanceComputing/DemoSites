@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="contact\index.html" />
     <Content Include="css\make.css" />
+    <Content Include="email.html" />
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
     <Content Include="event\2\img\2.jpg" />
@@ -126,6 +127,7 @@
     <Content Include="PHPMailer\src\POP3.php" />
     <Content Include="PHPMailer\src\SMTP.php" />
     <Content Include="post.php" />
+    <Content Include="supergroteska\supergroteska-rg-webfont.svg" />
     <Content Include="Web.config" />
     <Content Include="wp-content\plugins\contact-form-7\images\ajax-loader.gif" />
     <Content Include="wp-content\plugins\contact-form-7\includes\css\styles.css" />
@@ -196,6 +198,9 @@
     <Content Include="PHPMailer\README.md" />
     <Content Include="PHPMailer\SECURITY.md" />
     <Content Include="PHPMailer\VERSION" />
+    <Content Include="supergroteska\supergroteska-rg-webfont.eot" />
+    <Content Include="supergroteska\supergroteska-rg-webfont.ttf" />
+    <Content Include="supergroteska\supergroteska-rg-webfont.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
