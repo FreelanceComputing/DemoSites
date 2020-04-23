@@ -13,7 +13,7 @@ var validateHiddenInputs = function (form) {
 	if (form.rat_year.value != year) { return false; }
 	if (form.rat_month.value != month) { return false; }
 	if (form.rat_version.value != version) { return false; }
-	if (form.rat_locale.value != year) { return false; }
+	if (form.rat_locale.value != locale) { return false; }
 	return true;
 };
 var validateTextInput = function (field, error) {
@@ -59,22 +59,27 @@ $(function () {
 
 	// grab variables
 	var contactForm  = form[0];
+	var name         = contactForm.alias;
+	var number       = contactForm.number;
+	var email        = contactForm.email;
+	var subject      = contactForm.subject;
+	var message      = contactForm.message;
 	var nameError    = $("#displayNameError");
 	var numberError  = $("#displayNumberError");
 	var emailError   = $("#displayEmailError");
 	var subjectError = $("#displaySubjectError");
 	var messageError = $("#displayMessageError");
-	var sendSuccess  = $("#displaySuccess");
+	var sendOutcome  = $("#displayOutcome");
 	
 	// add input event listeners
-	addInputEvtListener(contactForm.alias,   nameError);
-	addInputEvtListener(contactForm.number,  numberError);
-	addInputEvtListener(contactForm.email,   emailError);
-	addInputEvtListener(contactForm.subject, subjectError);
+	addInputEvtListener(name,    nameError);
+	addInputEvtListener(number,  numberError);
+	addInputEvtListener(email,   emailError);
+	addInputEvtListener(subject, subjectError);
 
 	// add message event listener
-	contactForm.message.addEventListener("input", function (event) {
-		if (contactForm.message.value.length > 0 && contactForm.message.value.length < 5) {
+	message.addEventListener("input", function (event) {
+		if (message.value.length > 0 && message.value.length < 5) {
 			messageError.css("display", "");
 		} else {
 			messageError.css("display", "none");
@@ -86,13 +91,13 @@ $(function () {
 		event.preventDefault();
 
 		// Validate inputs
-		if (!validateTextInput(contactForm.alias, nameError)) {
+		if (!validateTextInput(name, nameError)) {
 			return;
 		}
-		if (!validateTextInput(contactForm.subject, subjectError)) {
+		if (!validateTextInput(subject, subjectError)) {
 			return;
 		}
-		if (!validateTextInput(contactForm.message, messageError)) {
+		if (!validateTextInput(message, messageError)) {
 			return;
 		}
 		if (!validateHiddenInputs(contactForm)) {
@@ -101,7 +106,11 @@ $(function () {
 
 		// Serialize the form data.
 		var formData = {};
-		formData["Name"] = form[0].alias.value;
+		formData["Name"]    = name.value;
+		formData["Number"]  = number.value;
+		formData["Email"]   = email.value;
+		formData["Subject"] = subject.value;
+		formData["Message"] = message.value;
 
 		// Submit the form.
 		$.ajax({
@@ -109,9 +118,17 @@ $(function () {
 			url: "../post.php",
 			data: formData
 		})
-		//console.log(formData);
-	});
-	// TODO: The rest of the code will go here...
-
-	
+			.done(function (data, status, xhr) {
+				//console.log("data:\n", data); //console.log("status:\n", status); //console.log("xhr:\n", xhr);
+				resetForm(contactForm);
+				sendOutcome.find("p").text("Thank you. Your message has been sent successfully.");
+				sendOutcome.css("display", "");
+			})
+			.fail(function (xhr, status, error) {
+				//console.log("xhr response text:\n", xhr.responseText); //console.log("status:\n", status); //console.log("error:\n", error);
+				resetForm(contactForm);
+				sendOutcome.find("p").text("Unfortunately your message couldn't be sent due to an internal server error.");
+				sendOutcome.css("display", "");
+			});
+	});	
 });
