@@ -10,14 +10,15 @@ require_once 'PHPMailer/src/Exception.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
     // Grab form info //var_dump($_POST);
-	$name = $_POST["Name"];
-	$number = $_POST["Number"];
-	$sender = $_POST["Email"];
-	$subject = $_POST["Subject"];
-	$email_content = $_POST["Message"];
+	$name = validateInput("/[a-zA-Z\s]{5,}/", $_POST["Name"]);
+	$number = validateInput("/[0][1-9][0-9]{9}/", $_POST["Number"]);
+	$sender = validateInput("/[^@\s]+@[^@\s]+\.[^@\s]+/", $_POST["Email"]);
+	$subject = validateInput("/.{5,}/", $_POST["Subject"]);
+	$message = validateInput("/.{5,}/", $_POST["Message"]);
 
 	$admin = "contact@rainmakersents.co.uk";
 	$recipient = "geanyb2713@gmail.com";
+	$email_content = $message;
 
 	// Configure mail client
 	$mail = new PHPMailer(true);
@@ -51,6 +52,16 @@ else
 {
     http_response_code(403);
     echo "There was a problem with your submission, please try again.";
+}
+
+function validateInput($pattern, $input)
+{
+    if(preg_match($pattern, trim($input)) < 1)
+	{
+	    http_response_code(500);
+		exit;
+	}
+	return $input;
 }
 exit;
 
