@@ -25,6 +25,8 @@
     <link data-minify="1" rel='stylesheet' id='exhibz-style-css' href='../../wp-content/themes/exhibz/assets/css/master.css' type='text/css' media='all' />
     <link data-minify="1" rel='stylesheet' id='exhibz-style-inline-css' href='../../css/make.css' type='text/css' media='all' />
 
+    <script type='text/javascript' src='../../js/jquery-3.5.0.min.js'></script>
+    <script type='text/javascript' src='../../js/ajax.js'></script>
     <script type='text/javascript' src='../../wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>
     <script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min-1.4.1.js'></script>
     <script type='text/javascript' src='../../wp-content/themes/exhibz/core/parallax/assets/js/attrparallax.js'></script>
@@ -111,7 +113,7 @@
                                             <div class="ts-pricing-box">
                                                 <div class="ts-pricing-header">
                                                     <h2 class="ts-pricing-name"> EARLY BIRD</h2>
-                                                    <h3 class="ts-pricing-price"> <span class="currency">£</span>25</h3>
+                                                    <h3 class="ts-pricing-price"> <span class="currency">£</span>30</h3>
                                                 </div>
                                                 <div class="ts-pricing-progress">
                                                     <p class="amount-progres-text"></p>
@@ -147,33 +149,45 @@
                                         <div class="elementor-element elementor-element-ead9de5 elementor-widget elementor-widget-shortcode" data-id="ead9de5" data-element_type="widget" data-widget_type="shortcode.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-shortcode">
-                                                    <div role="form" class="wpcf7" id="wpcf7-f1574-p1225-o1" lang="en-US" dir="ltr">
+                                                    <div role="form" class="wpcf7" dir="ltr">
                                                         <div class="screen-reader-response"></div>
-                                                        <form action="../contact/#wpcf7-f1574-p1225-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                        <form id="interestForm" method="post" class="wpcf7-form">
                                                             <div style="display: none;">
-                                                                <input type="hidden" name="_wpcf7" value="1574" />
-                                                                <input type="hidden" name="_wpcf7_version" value="5.1.6" />
-                                                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1574-p1225-o1" />
-                                                                <input type="hidden" name="_wpcf7_container_post" value="1225" />
+                                                                <input type="hidden" name="rat_year" value="" />
+                                                                <input type="hidden" name="rat_version" value="" />
+                                                                <input type="hidden" name="rat_locale" value="" />
+                                                                <input type="hidden" name="rat_month" value="" />
                                                             </div>
                                                             <div class="ts-contact-form sidebar-widgets">
                                                                 <div class="ts-form-group ">
                                                                     <div class="ts-form buyTicket">
                                                                         <div class="row form-group">
-                                                                            <div class="col-lg-4"> <span class="wpcf7-form-control-wrap text-49"><input type="text" name="text-49" value="" size="40" class="wpcf7-form-control wpcf7-text form-control field" aaria-required="true" aria-invalid="false" placeholder="Full Name" /></span></div>
-                                                                            <div class="col-lg-4"><span class="wpcf7-form-control-wrap tel-709"><input type="tel" name="tel-709" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control field" aria-required="true" aria-invalid="false" placeholder="Mobile" /></span></div>
-                                                                            <div class="col-lg-4"><span class="wpcf7-form-control-wrap email-980"><input type="email" name="email-980" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control field" aria-required="true" aria-invalid="false" placeholder="Email" /></span></div>
+                                                                            <div class="col-lg-4">
+                                                                                <span style="position:relative;">
+                                                                                    <input id="contactName" name="alias" required pattern="[a-zA-Z\s]{5,}" type="text" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Full Name" />
+                                                                                    <span id="displayNameError" style="display:none; color:red">Please enter a valid name</span>
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="col-lg-4">
+                                                                                <span style="position:relative;">
+                                                                                    <input id="contactNumber" name="number" required pattern="[0][1-9][0-9]{9}" type="tel" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Phone" />
+                                                                                    <span id="displayNumberError" style="display:none; color:red">Please enter a valid number</span>
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="col-lg-4">
+                                                                                <span style="position:relative;">
+                                                                                    <input id="contactEmail" name="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" type="text" value="" size="40" class="wpcf7-form-control form-control field" placeholder="Email" />
+                                                                                    <span id="displayEmailError" style="display:none; color:red">Please enter a valid email</span>
+                                                                                </span>
+                                                                            </div>
                                                                         </div>
                                                                         <div class="ts-btn-wraper text-center">
-                                                                            <input type="submit" value="Register Interest" class="wpcf7-form-control wpcf7-submit btn" />
+                                                                            <input type="submit" value="Register Interest" class="wpcf7-form-control btn" />
                                                                         </div>
-                                                                        <div class="msg"></div>
                                                                     </div>
                                                                 </div>
                                                                 </p>
                                                             </div>
-                                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
                                                         </form>
                                                     </div>
                                                 </div>
