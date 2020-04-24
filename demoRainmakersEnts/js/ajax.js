@@ -125,7 +125,7 @@ $(function () {
 				//console.log("data:\n", data); //console.log("status:\n", status); //console.log("xhr:\n", xhr);
 				resetForm(contactForm);
 				sendOutcome.find("h2").text("Thank you.");
-				sendOutcome.find("p").text("Thank you. Your message has been sent successfully.");
+				sendOutcome.find("p").text("Your message has been sent successfully.");
 				sendOutcome.find("i").click(function (event) {
 					sendOutcome.css("display", "none");
 				});
@@ -145,4 +145,75 @@ $(function () {
 		sendOutcome.find("p").text("Please wait while we send your message");
 		sendOutcome.css("display", "block");
 	});	
+});
+
+$(function () {
+	var form = $("#interestForm");
+	if (form.length < 1) { return; }
+
+	// grab variables
+	var interestForm = form[0];
+	var name   = interestForm.alias;
+	var number = interestForm.number;
+	var email = interestForm.email;
+	var nameError = $("#displayNameError");
+	var numberError = $("#displayNumberError");
+	var emailError = $("#displayEmailError");
+	var sendOutcome = $("#displayOutcome");
+	var evtName = $("#eventName")[0].textContent;
+	var evtTown = $("#eventTown")[0].textContent;
+	var evtDate = $("#eventDate")[0].textContent;
+
+	// add input event listeners
+	addInputEvtListener(name, nameError);
+	addInputEvtListener(number, numberError);
+	addInputEvtListener(email, emailError);
+
+	form.submit(function (event) {
+		// Stop the browser from submitting the form.
+		event.preventDefault();
+
+		// Validate input
+		if (!validateTextInput(name, nameError)) {
+			return;
+		}
+
+		// Serialize the form data.
+		var formData = {};
+		formData["Name"] = name.value;
+		formData["Number"] = number.value;
+		formData["Email"] = email.value;
+		formData["Subject"] = evtName + " - " + evtTown + " - " + $.trim(evtDate.replace(/[\t \n]+/g, ' '));
+		formData["Message"] = "Hello! I would like to find out how to purchase a ticket for this event. Thank you.";
+
+		// Submit the form.
+		$.ajax({
+			type: "POST",
+			url: "../../post.php",
+			data: formData
+		})
+			.done(function (data, status, xhr) {
+				//console.log("data:\n", data); //console.log("status:\n", status); //console.log("xhr:\n", xhr);
+				resetForm(interestForm);
+				sendOutcome.find("h2").text("Thank you.");
+				sendOutcome.find("p").text("You will be contacted shortly with further information about this event.");
+				sendOutcome.find("i").click(function (event) {
+					sendOutcome.css("display", "none");
+				});
+				sendOutcome.css("display", "block");
+			})
+			.fail(function (xhr, status, error) {
+				//console.log("xhr response text:\n", xhr.responseText); //console.log("status:\n", status); //console.log("error:\n", error);
+				resetForm(interestForm);
+				sendOutcome.find("h2").text("ERROR!");
+				sendOutcome.find("p").text("Unfortunately your message couldn't be sent due to an internal server error.");
+				sendOutcome.find("i").click(function (event) {
+					sendOutcome.css("display", "none");
+				});
+				sendOutcome.css("display", "block");
+			});
+		sendOutcome.find("h2").text("Processing . . .");
+		sendOutcome.find("p").text("Please wait while we send your message");
+		sendOutcome.css("display", "block");
+	});
 });
