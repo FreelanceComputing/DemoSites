@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$message = validateInput("/.{5,}/", $_POST["Message"]);
 
 	$admin = "contact@rainmakersents.co.uk";
-	$recipient = "geanyb2712@gmail.com";
+	$recipient = "rainmakerents@gmail.com";
 
 	ob_start();
 	include_once("email.php");
