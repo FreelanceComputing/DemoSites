@@ -18,7 +18,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 	$admin = "contact@rainmakersents.co.uk";
 	$recipient = "geanyb2713@gmail.com";
-	$email_content = $message;
+
+	ob_start();
+	include_once("email.php");
+	$email_content = ob_get_contents();
+	ob_get_clean();
+
+	// using 'echo' below somehow breaks the http_response_code
+	// echo $email_content;
 
 	// Configure mail client
 	$mail = new PHPMailer(true);

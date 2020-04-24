@@ -70,7 +70,7 @@
   <ItemGroup>
     <Content Include="contact\index.html" />
     <Content Include="css\make.css" />
-    <Content Include="email.html" />
+    <Content Include="email.php" />
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
     <Content Include="event\2\img\2.jpg" />

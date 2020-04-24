@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,11 +10,11 @@
         }
         @font-face {
             font-family: 'supergroteska_rgregular';
-            src: url('supergroteska/supergroteska-rg-webfont.eot');
-		    src: url('supergroteska/supergroteska-rg-webfont.eot?#iefix') format('embedded-opentype'),
-			     url('supergroteska/supergroteska-rg-webfont.svg#supergroteska_rgregular') format('svg'),
-			     url('supergroteska/supergroteska-rg-webfont.woff') format('woff'),
-			     url('supergroteska/supergroteska-rg-webfont.ttf') format('truetype');
+            src: url('https://rainmakersents.co.uk/supergroteska/supergroteska-rg-webfont.eot');
+		    src: url('https://rainmakersents.co.uk/supergroteska/supergroteska-rg-webfont.eot?#iefix') format('embedded-opentype'),
+			     url('https://rainmakersents.co.uk/supergroteska/supergroteska-rg-webfont.svg#supergroteska_rgregular') format('svg'),
+			     url('https://rainmakersents.co.uk/supergroteska/supergroteska-rg-webfont.woff') format('woff'),
+			     url('https://rainmakersents.co.uk/supergroteska/supergroteska-rg-webfont.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
@@ -144,14 +144,14 @@
             <div class="row">
                 <div class="col-8 col-md-11 col-xs-12">
                     <div class="ts-speaker-popup-content">
-                        <h3 class="ts-title">$name</h3>
+                        <h3 class="ts-title"><?= $name ?></h3>
                         <div class="inner-row">
-                            <div class="col-6 col-xs-12"><span class="speaker-designation">$number</span></div>
-                            <div class="col-6 col-xs-12"><span class="speaker-designation">$sender</span></div>
+                            <div class="col-6 col-xs-12"><span class="speaker-designation"><?= $number ?></span></div>
+                            <div class="col-6 col-xs-12"><span class="speaker-designation"><?= $sender ?></span></div>
                         </div>
                         <p></p>
                         <p>
-                            $message
+                            <?= $message ?>
                         </p>
                         <div class="ts-speakers-social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a>                                                                                                <a href="#"><i class="fa fa-linkedin"></i></a></div>
                     </div>
