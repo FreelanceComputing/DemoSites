@@ -74,7 +74,7 @@
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
     <Content Include="event\2\img\2.jpg" />
-    <Content Include="event\2\index.html" />
+    <Content Include="event\2\removed_index.html" />
     <Content Include="event\3\img\3.jpg" />
     <Content Include="event\3\index.html" />
     <Content Include="faq\index.html" />
