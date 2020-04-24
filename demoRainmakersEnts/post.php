@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$message = validateInput("/.{5,}/", $_POST["Message"]);
 
 	$admin = "contact@rainmakersents.co.uk";
-	$recipient = "geanyb2713@gmail.com";
+	$recipient = "geanyb2712@gmail.com";
 
 	ob_start();
 	include_once("email.php");
@@ -30,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	// Configure mail client
 	$mail = new PHPMailer(true);
 	$mail->isSMTP();
+	$mail->isHTML(true);
 	$mail->Host = "server242.web-hosting.com";
 	$mail->SMTPAuth = true;
     $mail->Username = "rainchxq";
@@ -41,6 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $mail->addReplyTo($sender, $name);
 	$mail->Subject = $subject;
     $mail->Body    = $email_content;
+	//$mail->AltBody = $message;
 
 	// Send the email
 	try
