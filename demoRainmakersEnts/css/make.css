@@ -427,3 +427,32 @@ blockquote,
     .gallery-item > div > a:focus {
         box-shadow: 0 0 0 2px #0073aa
     }
+
+
+/*CONTACT RULES*/
+
+.enquiries-section {
+    padding: 85px 0 85px 0;
+    position: relative
+}
+
+@media(max-width:1024px){
+    .enquiries-section {
+        padding: 50px 0 50px 0
+    }
+}
+
+.enquiries-div {
+    max-width: 1140px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    min-height: 1px
+}
+
+.enquiries-outer-div {
+    padding: 20px;
+}
