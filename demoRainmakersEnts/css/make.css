@@ -450,7 +450,14 @@ blockquote,
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    padding: 0 20px 0 20px;
     min-height: 1px
+}
+
+@media(max-width:1024px) {
+    .enquiries-div {
+        padding: 0
+    }
 }
 
 .enquiries-outer-div {
