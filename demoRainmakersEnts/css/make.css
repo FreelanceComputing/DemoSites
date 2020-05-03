@@ -454,9 +454,16 @@ blockquote,
     min-height: 1px
 }
 
+.message-div {
+    padding: 10px
+}
+
 @media(max-width:1024px) {
     .enquiries-div {
         padding: 0
+    }
+    .message-div {
+        padding: 0 15px 0 15px
     }
 }
 
