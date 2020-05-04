@@ -152,7 +152,6 @@
     <Content Include="wp-content\themes\exhibz\assets\images\shape\title.png" />
     <Content Include="wp-content\themes\exhibz\assets\images\shape\topics_mem.png" />
     <Content Include="wp-content\themes\exhibz\assets\js\bootstrap.min.js" />
-    <Content Include="wp-content\themes\exhibz\assets\js\elementor.js" />
     <Content Include="wp-content\themes\exhibz\assets\js\jquery.jCounter.js" />
     <Content Include="wp-content\themes\exhibz\assets\js\jquery.magnific-popup.min.js" />
     <Content Include="wp-content\themes\exhibz\assets\js\owl.carousel.min.js" />
