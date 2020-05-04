@@ -167,7 +167,6 @@
     <Content Include="wp-content\themes\exhibz\core\parallax\assets\js\TweenMax.min.js" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
     <Content Include="wp-content\uploads\elementor\css\post.css" />
-    <Content Include="wp-includes\css\dist\block-library\style.min.css" />
     <Content Include="wp-includes\js\jquery\jquery-1.12.4-wp.js" />
     <Content Include="wp-includes\js\jquery\jquery-migrate.min-1.4.1.js" />
   </ItemGroup>
