@@ -142,12 +142,6 @@
     <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="wp-content\plugins\elementor\assets\lib\swiper\swiper.min-4.4.6.js" />
     <Content Include="wp-content\plugins\elementor\assets\lib\waypoints\waypoints.min-4.0.2.js" />
-    <Content Include="wp-content\themes\exhibz\assets\css\bootstrap.min.css" />
-    <Content Include="wp-content\themes\exhibz\assets\css\gutenberg-custom.css" />
-    <Content Include="wp-content\themes\exhibz\assets\css\magnific-popup.css" />
-    <Content Include="wp-content\themes\exhibz\assets\css\master.css" />
-    <Content Include="wp-content\themes\exhibz\assets\css\owl.carousel.min.css" />
-    <Content Include="wp-content\themes\exhibz\assets\css\woocommerce.css" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
     <Content Include="wp-content\uploads\elementor\css\post.css" />
     <Content Include="wp-includes\js\jquery\jquery-1.12.4-wp.js" />
