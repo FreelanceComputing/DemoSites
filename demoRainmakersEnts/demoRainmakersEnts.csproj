@@ -132,11 +132,7 @@
     <Content Include="wp-content\plugins\elementor\assets\css\frontend.min-2.7.5.css" />
     <Content Include="wp-content\plugins\elementor\assets\js\frontend-modules.min-2.7.5.js" />
     <Content Include="wp-content\plugins\elementor\assets\js\frontend.min-2.7.5.js" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\animations\animations.min-2.7.5.css" />
     <Content Include="wp-content\plugins\elementor\assets\lib\dialog\dialog.min-4.7.3.js" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min-5.4.0.css" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\css\font-awesome.min-4.7.0.css" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="wp-content\plugins\elementor\assets\lib\swiper\swiper.min-4.4.6.js" />
     <Content Include="wp-content\plugins\elementor\assets\lib\waypoints\waypoints.min-4.0.2.js" />
     <Content Include="wp-content\uploads\elementor\css\global.css" />
@@ -173,12 +169,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\css\font-awesome.css-4.7.0.map" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
-    <Content Include="wp-content\plugins\elementor\assets\lib\font-awesome\fonts\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
