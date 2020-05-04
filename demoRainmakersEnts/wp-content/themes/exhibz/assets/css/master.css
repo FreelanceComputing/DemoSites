@@ -850,7 +850,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  left:0;
  top:0;
  content:'';
- background-image:url(../../../../themes/exhibz/assets/images/shape/title.png);
  background-repeat:no-repeat;
  background-position:contain;
  width:70px;
@@ -1380,62 +1379,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .schedule-tabs-item ul li:nth-child(even):hover:before {
  opacity:1
-}
-.elementor-widget-exhibz-latestnews .post {
- padding-right:0
-}
-.elementor-widget-exhibz-latestnews .post .post-media.post-image {
- position:relative
-}
-.elementor-widget-exhibz-latestnews .post .post-body {
- padding:20px 20px 25px 30px;
- margin:0;
- -webkit-box-shadow:0 5px 15px 0 rgba(0,0,0,.05);
- box-shadow:0 5px 15px 0 rgba(0,0,0,.05);
- border-radius:5px;
- background:#fff;
- -o-transition:all 0.4s ease;
- transition:all 0.4s ease;
- -webkit-transition:all 0.4s ease;
- -moz-transition:all 0.4s ease;
- -ms-transition:all 0.4s ease
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title {
- font-size:24px;
- font-weight:700;
- margin-bottom:15px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title a {
- color:#1c1c24
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title a:hover {
- color:#00c1c1
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-content p {
- line-height:26px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-meta {
- padding:5px 0 0 0;
- font-size:13px;
- margin-bottom:5px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-author {
- margin-right:25px;
- text-transform:uppercase
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-author a:hover {
- color:#00c1c1
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-meta-date {
- display:inline-block;
- text-transform:uppercase
-}
-.elementor-widget-exhibz-latestnews .post:hover .post-body {
- -webkit-box-shadow:0 20px 30px 0 rgba(0,0,0,.1);
- box-shadow:0 20px 30px 0 rgba(0,0,0,.1)
-}
-.elementor-widget-exhibz-latestnews .post:hover .post-body .entry-header .entry-title a {
- color:#00c1c1
 }
 .ts-newsletter.elementor-section.elementor-section-boxed>.elementor-container {
  position:relative;
@@ -2786,8 +2729,7 @@ p.form-submit .submit {
  opacity:0;
  -webkit-transition:all ease .5s;
  -o-transition:all ease .5s;
- transition:all ease .5s;
- background:url(../../../../themes/exhibz/assets/images/shape/topics_mem.png) no-repeat center left
+ transition:all ease .5s
 }
 .single-topics .ts-title {
  font-size:24px;
