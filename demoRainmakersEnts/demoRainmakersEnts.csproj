@@ -69,7 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact\index.html" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\frontend.min-2.7.5.css" />
+    <Content Include="css\global.css" />
     <Content Include="css\make.css" />
+    <Content Include="css\master.css" />
+    <Content Include="css\post.css" />
     <Content Include="email.php" />
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
@@ -120,7 +125,16 @@
     <Content Include="img\schedule_img_3.jpg" />
     <Content Include="index.html" />
     <Content Include="js\ajax.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\frontend-modules.min-2.7.5.js" />
+    <Content Include="js\frontend.min-2.7.5.js" />
+    <Content Include="js\jquery-1.12.4.js" />
     <Content Include="js\jquery-3.5.0.min.js" />
+    <Content Include="js\jquery-migrate.min-1.4.1.js" />
+    <Content Include="js\lib\dialog\dialog.min-4.7.3.js" />
+    <Content Include="js\lib\swiper\swiper.min-4.4.6.js" />
+    <Content Include="js\lib\waypoints\waypoints.min-4.0.2.js" />
+    <Content Include="js\script.js" />
     <Content Include="PHPMailer\get_oauth_token.php" />
     <Content Include="PHPMailer\src\Exception.php" />
     <Content Include="PHPMailer\src\OAuth.php" />
