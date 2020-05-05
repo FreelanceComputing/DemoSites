@@ -87,7 +87,6 @@ body,
 .schedule-tabs-item ul li:before,
 .btn,
 .btn-primary,
-.wp-block-button .wp-block-button__link:not(.has-background),
 .ts-single-speaker .ts-social-list li a,
 .header-fullwidth .header-fullwidth-nav .navbar.navbar-light ul.navbar-nav>li>a:before,
 .ts-footer-social ul li a:hover,
@@ -116,7 +115,6 @@ body,
 }
 
 .ts-map-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active a,
-.wp-block-quote:before,
 .blog-single .post-navigation .post-next a:hover,
 .blog-single .post-navigation .post-previous a:hover,
 .archive .ts-speaker:hover .ts-title a,
@@ -142,19 +140,6 @@ body,
 
 .ts-schedule-nav ul li a:before {
   border-color: transparent #ff007a transparent transparent
-}
-
-blockquote.wp-block-quote,
-.wp-block-quote,
-.wp-block-quote:not(.is-large):not(.is-style-large),
-blockquote.wp-block-pullquote,
-.wp-block-quote.is-large,
-.wp-block-quote.is-style-large,
-blockquote,
-.wp-block-quote:not(.is-large),
-.wp-block-quote:not(.is-style-large),
-.wp-block-pullquote:not(.is-style-solid-color) {
-  border-left-color: #ff007a
 }
 
 .woocommerce ul.products li.product .added_to_cart:hover,
