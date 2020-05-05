@@ -843,20 +843,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
  margin-bottom:10px;
  margin-top:-5px
 }
-.ts-schedule .ts-schedule-content .column-title:after {
- position:absolute;
- left:0;
- top:0;
- content:'';
- background-image:url(../../../../themes/exhibz/assets/images/shape/title.png);
- background-repeat:no-repeat;
- background-position:contain;
- width:70px;
- height:10px;
- margin:auto auto 0;
- top:auto;
- bottom:0
-}
 .ts-schedule .schedule-tabs .multi-speaker-2 .speaker-content,
 .ts-schedule .schedule-tabs .single-speaker-2 .speaker-content {
  margin:30px 30px 0 0;
@@ -1378,62 +1364,6 @@ img.schedule-slot-speakers.tab-speaker-img-2 {
 }
 .schedule-tabs-item ul li:nth-child(even):hover:before {
  opacity:1
-}
-.elementor-widget-exhibz-latestnews .post {
- padding-right:0
-}
-.elementor-widget-exhibz-latestnews .post .post-media.post-image {
- position:relative
-}
-.elementor-widget-exhibz-latestnews .post .post-body {
- padding:20px 20px 25px 30px;
- margin:0;
- -webkit-box-shadow:0 5px 15px 0 rgba(0,0,0,.05);
- box-shadow:0 5px 15px 0 rgba(0,0,0,.05);
- border-radius:5px;
- background:#fff;
- -o-transition:all 0.4s ease;
- transition:all 0.4s ease;
- -webkit-transition:all 0.4s ease;
- -moz-transition:all 0.4s ease;
- -ms-transition:all 0.4s ease
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title {
- font-size:24px;
- font-weight:700;
- margin-bottom:15px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title a {
- color:#1c1c24
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-header .entry-title a:hover {
- color:#00c1c1
-}
-.elementor-widget-exhibz-latestnews .post .post-body .entry-content p {
- line-height:26px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-meta {
- padding:5px 0 0 0;
- font-size:13px;
- margin-bottom:5px
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-author {
- margin-right:25px;
- text-transform:uppercase
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-author a:hover {
- color:#00c1c1
-}
-.elementor-widget-exhibz-latestnews .post .post-body .post-meta-date {
- display:inline-block;
- text-transform:uppercase
-}
-.elementor-widget-exhibz-latestnews .post:hover .post-body {
- -webkit-box-shadow:0 20px 30px 0 rgba(0,0,0,.1);
- box-shadow:0 20px 30px 0 rgba(0,0,0,.1)
-}
-.elementor-widget-exhibz-latestnews .post:hover .post-body .entry-header .entry-title a {
- color:#00c1c1
 }
 .ts-newsletter.elementor-section.elementor-section-boxed>.elementor-container {
  position:relative;
@@ -2750,85 +2680,6 @@ p.form-submit .submit {
 .cta .newsletter-form .form-group .btn:focus {
  -webkit-box-shadow:none;
  box-shadow:none
-}
-.single-topics {
- position:relative;
- -webkit-box-shadow:0 15px 30px 0 rgba(40,55,71,.05);
- box-shadow:0 15px 30px 0 rgba(40,55,71,.05);
- padding:35px 40px 30px 40px;
- -webkit-transition:all ease .5s;
- -o-transition:all ease .5s;
- transition:all ease .5s
-}
-.single-topics::after {
- position:absolute;
- content:'';
- right:0;
- top:0;
- width:100%;
- height:100%;
- z-index:-1;
- opacity:0;
- -webkit-transition:all ease .5s;
- -o-transition:all ease .5s;
- transition:all ease .5s;
- background-blend-mode:multiply
-}
-.single-topics::before {
- position:absolute;
- content:'';
- left:-12px;
- top:-12px;
- width:66px;
- height:33px;
- opacity:0;
- -webkit-transition:all ease .5s;
- -o-transition:all ease .5s;
- transition:all ease .5s;
- background:url(../../../../themes/exhibz/assets/images/shape/topics_mem.png) no-repeat center left
-}
-.single-topics .ts-title {
- font-size:24px;
- font-weight:700;
- text-transform:capitalize;
- margin-bottom:15px;
- -webkit-transition:all ease .3s;
- -o-transition:all ease .3s;
- transition:all ease .3s
-}
-.single-topics p {
- font-size:15px;
- line-height:25px;
- margin-bottom:0;
- -webkit-transition:all ease .3s;
- -o-transition:all ease .3s;
- transition:all ease .3s
-}
-.single-topics .topics-link {
- width:34px;
- height:34px;
- background:#fff;
- color:#e74c3c;
- padding:6px;
- text-align:center;
- position:absolute;
- right:10px;
- bottom:10px;
- opacity:0;
- -webkit-transition:all ease .5s;
- -o-transition:all ease .5s;
- transition:all ease .5s
-}
-.single-topics:hover::after,
-.single-topics:hover::before,
-.single-topics:hover .topics-link {
- opacity:1
-}
-.single-topics:hover .ts-title {
- color:#fff
-}
-.single-topics:hover p {
- color:#fff
 }
 .ts-speaker-slider .owl-stage-outer {
  padding:50px 0
