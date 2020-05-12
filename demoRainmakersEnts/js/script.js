@@ -11,7 +11,11 @@ jQuery( document ).ready( function($){
       } else {
          $('.navbar-fixed').removeClass('sticky fade_down_effect');
       }
-});
+	});
+
+	/**YEAR**/
+	var d = new Date();
+	$("#theYear").text(d.getFullYear());
 
 //   /* ----------------------------------------------------------- */
 //   /*  Mobile Menu
