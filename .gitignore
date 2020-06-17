@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -9,3 +9,9 @@ demo/liveNotDemoHNM237/demoHNM237/obj/Debug
 demo/liveNotDemoHNM237/demoHNM237/obj/Release
 demo/liveNotDemoHNM237/packages/
 demo/liveNotDemoHNM237/.vs/
+demo/liveNotDemoHNM237/demoHNM237/the-digital-bee/uploads/.thumbs/image
+demoRainmakersEnts/bin/
+demoRainmakersEnts/obj/Debug/
+.vs/
+demoRainmakersEnts/obj/Release/
+demoRainmakersEnts/demoRainmakersEnts.csproj.user

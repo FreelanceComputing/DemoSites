@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^rainmakersents\.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rainmakersents\.co.uk$
+RewriteRule .* https://rainmakersents.co.uk%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTPS} =on
+RewriteCond %{HTTP_HOST} ^www\.rainmakersents\.co.uk$
+RewriteRule .* https://rainmakersents.co.uk%{REQUEST_URI} [R=301,L]
