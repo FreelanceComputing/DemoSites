@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<title>Douala Tees | Shipping </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="This is a Cameroonian inspired T-shirt brand, creating simple and authentic T-shirt designs."> -->
+    <!-- <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"> -->
+	
+	<link type="text/css" rel="stylesheet" href="https://doualatees.com/shop/media/css/44fb665f0cbff61df784d9fc92b33cee.css" media="all" />	
+	<link type="text/css" rel="stylesheet" href="https://doualatees.com/dist/css/formValidation.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="https://doualatees.com/css/style.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="https://doualatees.com/shop/media/css/shopStyle.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/css/nav_styles.css" media="all" />	
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+    </script>
+
+    <script src="https://doualatees.com/js/jquery.min.js"></script>
+	<script src="https://doualatees.com/js/jquery.once.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="https://doualatees.com/dist/js/formValidation.js"></script>
+    <script type="text/javascript" src="https://doualatees.com/dist/js/framework/bootstrap.js"></script>
+	<script src="https://doualatees.com/js/shipping.js"></script>
+</head>
+<body class=" checkout-cart-index" >
+	<div id="wrapper">
+	<!--div id="container" class="clearfix"-->
+		
+	<div class="container">
+		<div class="layout layout-1-col">
+			<div role="main">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header page-scroll">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://doualatees.com/about">About</a></li>
+                                <li><a href="https://doualatees.com/contact">Contact</a></li>
+                                <li id="nav-logo"><a href="https://doualatees.com/">Home</a></li>
+                                <li><a href="https://doualatees.com/faq">FAQs</a></li>
+                                <li><a href="https://doualatees.com/shop">Shop</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+
+				<div class="back-white clearfix">
+					<h1 class="underline underline-black"><span>SECURE CHECKOUT</span></h1>
+					<div id="tcheckout-progress" class="checkout-progress">
+						<ol id="progress-bar" class="relative triple-border">
+							<li id="prog-addr" class="active"><span>1.Shipping</span></li>
+							<li id="prog-addr" class=""><span>2.Billing</span></li>
+							<li id="prog-shipping" class=""><span>3.Review</span></li>
+							<li id="prog-payment" class=""><span>4.Payment</span></li>
+						</ol>
+					</div>
+					<div id="tcheckout-container">
+						<div class="addr-container colmask rightmenu clearfix" >
+							<div class="colleft border-right border-green">
+								<div class="col-md-7">
+									<h2 class="account-sub-title supergroteska_reg no-spacing lowercase nml-padding border-bottom border-green no-margin"><strong>Shipping Address</strong></h2>
+									<form id="shipping-form" method="post" class="nml-padding" action="//doualatees.com/shop/items/shop_items.php"><!--action="/shop/tcheckout/index/saveAddress/"-->
+										<!-- <fieldset><p></p><p class="ship"></p> -->
+										<div class="addr-billing-container" >
+											<ul id="shipping-address-form" class="form-list col-xs-12 col-md-9">
+												<!--h2 class="account-sub-title supergroteska_reg no-spacing lowercase no-margin-top"><strong>Shipping Address</strong></h2-->
+												<li id="shipping-new-address-form"><fieldset><ul>
+													<!--input type="hidden" name="shipping[address_id]" value="39632" id="shipping:address_id" /-->
+													<li class="fields row form-group"><div class="customer-name">
+														<label for="shipping:firstname" class="required col-md-4 col-xs-12 control-label"><em>*</em>Name</label>
+														<div class="input-box col-md-4 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_FirstName" name="ship[FirstName]" title="First Name" maxlength="30" class="input-text required-entry form-control "  placeholder="First" />
+														</div>
+														<label for="shipping:lastname" class="required control-label" style="display:none;"><em>*</em>Last Name</label>
+														<div class="input-box col-md-4 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_LastName" name="ship[LastName]" title="Last Name" maxlength="30" class="input-text required-entry form-control "  placeholder="Last" />
+														</div></div>
+													</li>
+													<li class="fields row form-group">
+														<label for="shipping:email" class="required col-md-4 col-xs-12 control-label"><em>*</em>Email Address</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<input autocomplete="off" type="email" id="ship_Email" name="ship[Email]" title="Email Address" class="input-text validate-email required-entry form-control" />
+														 </div>
+													</li>
+													<li class="wide row form-group">
+														<label for="shipping:street1" class="required col-md-4 col-xs-12 control-label"><em>*</em>Address</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_Street1" name="ship[Street1]"  title="Street Address" maxlength="128" class="input-text required-entry form-control" />
+														</div>
+													</li>
+													<li class="wide row form-group">
+														<div class="input-box col-md-8 col-xs-12 col-xs-offset-4">
+															<input autocomplete="off" type="text" id="ship_Street2" name="ship[Street2]" title="Street Address 2" maxlength="128" class="input-text form-control" />
+														</div>
+													</li>
+													<li class="fields row form-group">
+														<label for="shipping:city" class="required col-md-4 col-xs-12 control-label"><em>*</em>City</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_City" name="ship[City]" title="City" maxlength="128" class="input-text required-entry form-control" />
+														</div>
+													</li>
+													<li class="fields row form-group">
+														<label for="shipping:country_id" class="required col-md-4 col-xs-12 control-label"><em>*</em>Country</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<select autocomplete="off" id="ship_Country" name="ship[Country]" title="Country" class="form-control " >
+																<option value="" selected>Select a country</option>
+																<option value="AU" >Australia</option>
+																<!--option value="CM" >Cameroon </option--> 
+																<option value="GB" >Great Britain</option>
+																<option value="US" >United States of America</option>
+																<option value="Albania" >Albania</option><option value="Andorra" >Andorra</option><option value="Armenia" >Armenia</option><option value="AT" >Austria</option><option value="Azerbaijan" >Azerbaijan</option><option value="Belarus" >Belarus</option><option value="Belgium" >Belgium</option><option value="Bosnia" >Bosnia and Herzegovina</option><option value="BG" >Bulgaria</option><option value="Croatia" >Croatia</option><option value="Cyprus" >Cyprus</option><option value="CZ" >Czech Republic</option><option value="DK" >Denmark</option><option value="Estonia" >Estonia</option><option value="Finland" >Finland</option><option value="FR" >France</option><option value="Georgia" >Georgia</option><option value="DE" >Germany</option><option value="Gibraltar" >Gibraltar</option><option value="Greece" >Greece</option><option value="Hungary" >Hungary</option><option value="Iceland" >Iceland</option><option value="IE" >Ireland</option><option value="IT" >Italy</option><option value="Kazakhstan" >Kazakhstan</option><option value="Kosovo" >Kosovo</option><option value="Latvia" >Latvia</option><option value="Liechtenstein" >Liechtenstein</option><option value="Lithuania" >Lithuania</option><option value="Luxembourg" >Luxembourg</option><option value="Macedonia" >Macedonia</option><option value="Malta" >Malta</option><option value="Moldova" >Moldova</option><option value="Monaco" >Monaco</option><option value="Montenegro" >Montenegro</option><option value="NL" >Netherlands</option><option value="Norway" >Norway</option><option value="PL" >Poland</option><option value="PT" >Portugal</option><option value="RO" >Romania</option><option value="RU" >Russia</option><option value="San Marino" >San Marino</option><option value="Serbia" >Serbia</option><option value="SK" >Slovakia</option><option value="Slovenia" >Slovenia</option><option value="ES" >Spain</option><option value="SE" >Sweden</option><option value="CH" >Switzerland</option><option value="Turkey" >Turkey</option><option value="Ukraine" >Ukraine</option><option value="Vatican" >Vatican City</option>
+														    </select>
+														</div>
+														<p class="col-xs-12 col-md-8 col-xs-offset-4 font-sml"><em>Matches the selected currency.</em></p>
+													</li>
+													<li class="fields row form-group">          
+														<label for="shipping:postcode" class="required col-md-4 col-xs-12 control-label"><em>*</em>Zip/Postal Code</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_Zip" name="ship[Zip]" title="Zip/Postal Code" maxlength="20" class="input-text required-entry form-control" />
+														</div>
+													</li>
+													<li class="fields row form-group">
+														<label for="shipping:telephone" class="required col-md-4 col-xs-12 control-label"><em>*</em>Telephone</label>
+														<div class="input-box col-md-8 col-xs-12">
+															<input autocomplete="off" type="text" id="ship_Tel" name="ship[Tel]" title="Telephone" maxlength="20" class=" input-text required-entry form-control" />
+														</div>
+														<p class="col-xs-12 col-md-8 col-xs-offset-4 font-sml"><em>For order information only.</em></p>
+													</li>
+													
+												</fieldset></li></ul>
+											</ul><p></p>
+											<div class="row">
+												<div class="col-xs-12 col-md-9 form-group">
+													<div class="align-left col-xs-12 col-xs-offset-4 col-md-8" >
+														<button type="submit" class="button">Continue</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- </fieldset> -->
+									</form>
+								</div>
+								<div id="summaryColumn" class="col-md-5">
+									<h2 class="account-sub-title supergroteska_reg no-spacing lowercase nml-padding border-bottom border-green no-margin"><strong>Order Summary:</strong></h2>
+									<!--button class="show-full-summary" id="showHideSummary">Show order summary</button-->
+									<div id="summaryItems" class="order-summary clearfix">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<footer class="checkout clear clearfix">
+						<div class="col-md-6 float-left">
+							<img class="float-left" src="https://doualatees.com/img/cardtypes-checkout.png" alt="">
+						</div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-2" style="float:right">
+                            <script language="JavaScript" type="text/javascript">
+                                TrustLogo("https://doualatees.com/img/comodo_secure_seal_76x26_transp.png", "CL1", "none");
+                            </script>
+                            <a href="https://ssl.comodo.com" id="comodoTL">Comodo SSL</a>
+                        </div>
+					</footer>
+					<!-- Section : Footer : Start -->
+					<div id="trailer" class="clearfix">
+						<img src="https://doualatees.com/img/home-quote-logo.png" title="Douala Tees Logo" width="114" /> 
+					</div>
+						<!-- Section : Footer : End -->
+				</div>
+			</div>
+		</div>
+	</div><!-- /#container -->
+		<!-- main -->
+		<!--/div--> <!-- /#header -->
+	<!--/div--> 
+	</div><!-- /#wrapper -->
+    <!--script src="/js/bootstrap.js"></script-->
+</body>
+</html>

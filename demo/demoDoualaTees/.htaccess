@@ -1,0 +1,4 @@
+DirectoryIndex index.html index.php index.htm parking-page.html
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]

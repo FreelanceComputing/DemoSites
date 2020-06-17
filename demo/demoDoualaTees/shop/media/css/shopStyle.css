@@ -1,0 +1,93 @@
+ .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+div.load-sidecart {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    z-index: 100;
+}
+
+div.wrapper-sidecart {
+    position: relative;
+    top: 11px;
+    width: 466px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.load-sidecart .block-cart {
+    margin: 0;
+}
+
+@media (max-width:1600px) {
+	div.load-sidecart {
+        right: 0;
+		height:400px;
+    }
+}
+
+@media (max-width:665px) {
+	div.load-sidecart {
+        right: auto;
+        background: none;
+        width: 90%;
+        margin: 0 5%;
+    }
+    div.wrapper-sidecart {
+        width: auto;
+    }
+}
+
+@media (max-width:480px) {
+	div.wrapper-sidecart {
+        top: 0;
+        width: auto;
+    }
+    div.load-sidecart {
+        right: auto;
+        margin: 0 2.5%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 415px){
+
+/*fix same billing address link on small screens*/
+    h2.account-sub-title.supergroteska_reg.no-spacing.lowercase.nml-padding.border-bottom.border-green.no-margin span{
+        float: unset !important;
+    }
+
+/*fix order summary image on small screens*/
+    div.col.col-md-3.image.float-left{
+        width: 100% !important;
+    }
+
+/*fix alignment of payment sidecart on small screens*/
+    div.wrapper-sidecart{
+        right: -15px;
+    }
+}

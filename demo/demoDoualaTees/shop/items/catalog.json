@@ -1,0 +1,137 @@
+{
+  "catalog":
+  [
+    {
+      "id": "ACSRY_1",
+	    "desc": "237 Douala Tees Ball Cap",
+		  "size": ["S","M","L","XL"],
+	    "price": ["26.50 AUD", "18.50 EUR", "16.20 GBP", "20.10 USD", "10000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["ACSRY_1_front_view.jpg"]
+    },
+    {
+      "id": "HOOD_GEN_1",
+	    "desc": "Do Le Dab Hoodie",
+		  "size": ["S","M","L","XL"],
+	    "price": ["58.80 AUD", "41.60 EUR", "36.10 GBP", "45.00 USD", "20000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["HOOD_GEN_1_front_view.jpg", "HOOD_GEN_1_back_view.jpg"]
+    },
+    {
+      "id": "HOOD_GEN_2",
+	    "desc": "Ton Pied Mon Pied Hoodie - White",
+		  "size": ["S","M","L","XL"],
+	    "price": ["58.80 AUD", "41.60 EUR", "36.10 GBP", "45.00 USD", "20000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["HOOD_GEN_2_front_view.jpg", "HOOD_GEN_2_back_view.jpg"]
+    },
+    {
+      "id": "HOOD_GEN_3",
+	    "desc": "Ton Pied Mon Pied Hoodie - Navy",
+		  "size": ["S","M","L","XL"],
+	    "price": ["58.80 AUD", "41.60 EUR", "36.10 GBP", "45.00 USD", "20000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["HOOD_GEN_3_front_view.jpg", "HOOD_GEN_3_back_view.jpg"]
+    },
+    {
+      "id": "NSLV_GEN_1",
+	    "desc": "Yaounde Sleeveless",
+		  "size": ["S","M","L","XL"],
+	    "price": ["32.65 AUD", "23.10 EUR", "20.00 GBP", "25.00 USD", "13500.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["NSLV_GEN_1_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_GEN_2",
+	    "desc": "Ton Pied Mon Pied T-Shirt -White",
+		  "size": ["S","M","L","XL"],
+	    "price": ["32.65 AUD", "23.10 EUR", "20.00 GBP", "25.00 USD", "13500.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_GEN_2_front_view.jpg", "SSLV_GEN_2_back_view.jpg"]
+    },
+    {
+      "id": "NSLV_ALU_1",
+	    "desc": "Shedesan Sleeveless",
+		  "size": ["S","M","L","XL"],
+	    "price": ["26.50 AUD", "18.50 EUR", "16.20 GBP", "20.10 USD", "10000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["NSLV_ALU_1_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_ALU_1",
+	    "desc": "Sakerette T-Shirt",
+		  "size": ["S","M","L","XL"],
+	    "price": ["26.50 AUD", "18.50 EUR", "16.20 GBP", "20.10 USD", "10000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_ALU_1_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_ALU_2",
+	    "desc": "Shedesan T-Shirt",
+		  "size": ["S","M","L","XL"],
+	    "price": ["26.50 AUD", "18.50 EUR", "16.20 GBP", "20.10 USD", "10000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_ALU_2_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_ALU_3",
+	    "desc": "Lesan T-Shirt",
+		  "size": ["S","M","L","XL"],
+	    "price": ["26.50 AUD", "18.50 EUR", "16.20 GBP", "20.10 USD", "10000.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_ALU_3_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_GEN_1",
+	    "desc": "Douala Tees Logo T-Shirt",
+		  "size": ["S","M","L","XL"],
+      "price": ["32.65 AUD", "23.10 EUR", "20.00 GBP", "25.00 USD", "13500.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_GEN_1_front_view.jpg"]
+    },
+    {
+      "id": "SSLV_GEN_3",
+	    "desc": "Limbe T-Shirt",
+		  "size": ["S","M","L","XL"],
+	    "price": ["32.65 AUD", "23.10 EUR", "20.00 GBP", "25.00 USD", "13500.00 CFA"],
+		  "AUS": {"stock": "yes", "shipping": 10.00},
+      "EUR": {"stock": "yes", "shipping": 16.90},
+      "UK": {"stock": "yes", "shipping": 8.10},
+      "USA": {"stock": "yes", "shipping": 19.60},
+	    "pic": ["SSLV_GEN_3_front_view.jpg"]
+    }
+  ]
+}

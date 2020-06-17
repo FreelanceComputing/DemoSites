@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Douala Tees | Payment</title>
+    <!-- <meta name="description" content="This is a Cameroonian inspired T-shirt brand, creating simple and authentic T-shirt designs."> -->
+    <!-- <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/shop/media/css/44fb665f0cbff61df784d9fc92b33cee.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/dist/css/formValidation.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/css/style.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/shop/media/css/shopStyle.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://doualatees.com/css/nav_styles.css" media="all" />
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+    </script>
+
+    <script src="https://doualatees.com/js/jquery.min.js"></script>
+    <script src="https://doualatees.com/js/jquery.once.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://doualatees.com/dist/js/formValidation.js"></script>
+    <script type="text/javascript" src="https://doualatees.com/dist/js/framework/bootstrap.js"></script>
+    <script src="https://js.stripe.com/v2/"></script>
+    <script src="//oss.maxcdn.com/bootbox/4.2.0/bootbox.min.js"></script>
+    <script src="https://doualatees.com/js/payment.js"></script>
+</head>
+<body class="checkout-onepage-index" >
+    <div class="load-sidecart" style="display:none;width:90%;right:30px;height:inherit;padding-bottom:5%;">
+        <div class="wrapper-sidecart" style="width:auto;height:inherit;">
+            <div class="block block-cart" id="iframe-container" style="height:inherit;">
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <!--div class="container"-->
+        <div class="container">
+            <div class="layout layout-1-col">
+                <div role="main">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header page-scroll">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  formnovalidate>
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="https://doualatees.com/about">About</a></li>
+                                    <li><a href="https://doualatees.com/contact">Contact</a></li>
+                                    <li id="nav-logo"><a href="https://doualatees.com/">Home</a></li>
+                                    <li><a href="https://doualatees.com/faq">FAQs</a></li>
+                                    <li><a href="https://doualatees.com/shop">Shop</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                    </nav>
+
+                    <div class="back-white clearfix">
+                        <h1 class="underline underline-black checkout-icon"><span>SECURE CHECKOUT</span></h1>
+                        <div id="tcheckout-progress" class="checkout-progress">
+                            <ol id="progress-bar" class="relative triple-border">
+                                <li id="prog-addr" class=""><span>1.Shipping</span></li>
+                                <li id="prog-addr" class=""><span>2.Billing</span></li>
+                                <li id="prog-shipping" class=""><span>3.Review</span></li>
+                                <li id="prog-payment" class="active"><span>4.Payment</span></li>
+                            </ol>
+                        </div>
+                        <div id="tcheckout-container">
+                            <div class="colmask rightmenu clearfix shipping">
+                                <div class="colleft border-right border-green">
+                                    <div class="col-md-7">
+                                        <h2 class="account-sub-title supergroteska_reg no-spacing lowercase nml-padding border-bottom border-green no-margin"><strong>Enter Card Details:</strong></h2>
+                                        <div class="nml-padding">
+                                            <form id="payment-form"> <!--method="post" action="/shop/tcheckout/index/saveMethods/"--><fieldset>
+                                                    <div class="addr-billing-container">
+                                                        <h2 class="account-sub-title supergroteska_reg no-spacing lowercase no-margin-top"><strong>All details as appear on card</strong></h2>
+                                                        <ul id="shipping-address-form" class="form-list col-xs-12 col-md-9">
+                                                            <li id="shipping-new-address-form"><fieldset>
+                                                                    <!-- <input type="hidden" name="shipping[address_id]" value="39632" id="shipping:address_id" /> -->
+                                                                    <ul>
+                                                                        <li class="fields row form-group">
+                                                                            <label for="billing:telephone" class="required col-md-4 col-xs-12 control-label"><em>*</em>Card Number</label>
+                                                                            <div class="input-box col-md-8 col-xs-12">
+                                                                                <input autocomplete="off" type="text" class="input-text required-entry form-control" data-stripe="number" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="fields row form-group"><div class="customer-name">
+                                                                                <label for="shipping:firstname" class="required col-md-4 col-xs-12 control-label"><em>*</em>Expiry</label>
+                                                                                <div class="input-box col-md-4 col-xs-12">
+                                                                                    <input autocomplete="off" type="text" class="input-text required-entry form-control"  placeholder="01" data-stripe="exp-month" maxlength="2" />
+                                                                                </div>
+                                                                                <label for="shipping:lastname" class="required control-label" style="display:none;"><em>*</em>Expiry Year</label>
+                                                                                <div class="input-box col-md-4 col-xs-12">
+                                                                                    <input autocomplete="off" type="text" class="input-text required-entry form-control"  placeholder="2017" data-stripe="exp-year" maxlength="4" />
+                                                                                </div></div>
+                                                                        </li>
+                                                                        <li class="fields row form-group">
+                                                                            <label for="billing:telephone" class="required col-md-4 col-xs-12 control-label"><em>*</em>CVV</label>
+                                                                            <div class="input-box col-md-4 col-xs-12">
+                                                                                <input autocomplete="off" type="text" class="input-text required-entry form-control" data-stripe="cvc" maxlength="4" />
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="wide row form-group">
+                                                                            <label for="billing:street1" class="required col-md-4 col-xs-12 control-label"><em>*</em>Full Name</label>
+                                                                            <div class="input-box col-md-8 col-xs-12">
+                                                                                <input autocomplete="off" type="text" class="input-text required-entry form-control" data-stripe="name" maxlength="255" />
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul><p></p><hr>
+                                                                    <div class="row">
+                                                                        <strong id="tcheckout-please-wait" class="tcheckout-please-wait" style="display:none;" >
+                                                                            <img src="https://doualatees.com/img/opc-ajax-loader.gif" alt="Loading, please wait..." title="Loading, please wait..." class="v-middle">
+                                                                            Loading, please wait...
+                                                                        </strong>
+                                                                        <div class="col-xs-12 col-md-4">
+                                                                            <div class="align-left col-xs-12 col-md-4" id="shipping-buttons-container">
+                                                                                <button id="cancelPayment" class="button" formnovalidate>
+                                                                                    <span>
+                                                                                        <span>Cancel</span>
+                                                                                    </span>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-xs-12 col-md-4">
+                                                                            <div class="align-left col-xs-12 col-md-4" id="shipping-buttons-container">
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-xs-12 col-md-4 form-group">
+                                                                            <div class="align-left col-xs-12 col-xs-offset-4 col-md-4" id="shipping-buttons-container">
+                                                                                <button type="submit" class="button">
+                                                                                    <span>
+                                                                                        <span>Pay Now</span>
+                                                                                    </span>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <input type="hidden" name="stripeSource" value="" />
+                                                                    </div>
+                                                                </fieldset></li>
+                                                        </ul>
+                                                    </div>
+                                                </fieldset></form>
+                                        </div>
+                                    </div>
+                                    <div id="summaryColumn"  class="col col-md-5 border-green">
+                                        <h2 class="account-sub-title supergroteska_reg no-spacing lowercase nml-padding border-bottom border-green no-margin"><strong>Order Summary:</strong></h2>
+                                        <div  id="summaryItems" class="order-summary relative clearfix">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <footer class="checkout clear clearfix">
+                            <div class="col-md-6 float-left">
+                                <img class="float-left" src="https://doualatees.com/img/cardtypes-checkout.png" alt="">
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-2" style="float:right">
+                                <script language="JavaScript" type="text/javascript">
+                                    TrustLogo("https://doualatees.com/img/comodo_secure_seal_76x26_transp.png", "CL1", "none");
+                                </script>
+                                <a href="https://ssl.comodo.com" id="comodoTL">Comodo SSL</a>
+
+                            </div>
+                        </footer>
+                        <div id="trailer" class="clearfix">
+                            <img src="https://doualatees.com/img/home-quote-logo.png" title="Douala Tees Logo" width="114" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!-- /#container -->
+    </div><!-- /#wrapper -->
+    <!--script src="/js/bootstrap.js"></script-->
+</body>
+</html>
