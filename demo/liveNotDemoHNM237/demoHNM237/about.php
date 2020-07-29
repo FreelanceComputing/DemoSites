@@ -44,31 +44,31 @@
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a href="https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/hnm_237/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="<cms:editable name='fb_header' label='Facebook Button - Header' desc='Change the link to the social media button here' type='text'>https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/</cms:editable>"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="<cms:editable name='ins_header' label='Instagram Button - Header' desc='Change the link to the social media button here' type='text'>https://www.instagram.com/hnm_237/</cms:editable>"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   </div>
 </header>
 
 <!-- About Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="about">
   <h3 class="w3-center">ABOUT US</h3>
-  <p class="w3-center w3-large">Our mission statement is to bridge a forecasted gap in the professional and gender vacuum of the girls/women in STEM by 2035 to provide them a competitive advantage in the job market.</p>
+  <p class="w3-center w3-large"><cms:editable name='about' label='ABOUT US' desc='Change the ABOUT US text here' type='text'>Our mission statement is to bridge a forecasted gap in the professional and gender vacuum of the girls/women in STEM by 2035 to provide them a competitive advantage in the job market.</cms:editable></p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-third">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Empower</p>
-      <p>Carry out activities to encourage primary school girls to take STEM courses at College and University.</p>
+      <p><cms:editable name='empower' label='Empower' desc='Change the Empower text here' type='text'>Carry out activities to encourage primary school girls to take STEM courses at College and University.</cms:editable></p>
     </div>
     <div class="w3-third">
       <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Grow</p>
-      <p>Create a pool of role models and a network of mentors and promote STEM girl mentoring in Colleges and Universities.
+      <p><cms:editable name='grow' label='Grow' desc='Change the Grow text here' type='text'>Create a pool of role models and a network of mentors and promote STEM girl mentoring in Colleges and Universities.</cms:editable>
       </p>
     </div>
     <div class="w3-third">
       <i class="fa fa-graduation-cap w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Celebrate</p>
-      <p>Celebrate the achievements of Cameroonian STEM women and girls.
+      <p><cms:editable name='celebrate' label='Celebrate' desc='Change the Celebrate text here' type='text'>Celebrate the achievements of Cameroonian STEM women and girls.</cms:editable>
       </p>
     </div>
   </div>
@@ -81,7 +81,7 @@
         <h3>Scholarship Scheme.</h3>
         <p>Hidden No More Cameroon is providing a fully-funded scholarship scheme that encourages primary school girls to take on STEM subjects at an earlier age and prior to secondary school. <a href="#contact">Contact us</a> to find out how to become a sponsor, mentor or volunteer.
         </p>
-      <p><a href="#" class="w3-button w3-black"><i class="fa fa-edit"> </i>Apply Now</a></p>
+      <p><a href="<cms:editable name='application' label='Apply Now' desc='Add a link to the application form here' type='text'>#</cms:editable>" class="w3-button w3-black"><i class="fa fa-edit"> </i>Apply Now</a></p>
     </div>
     <div class="w3-col m6">
       <img class="w3-image w3-round-large" src="img/mission.jpg" alt="Buildings" width="700" height="394">
@@ -249,15 +249,15 @@
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
   <div class="w3-third">
-    <span class="w3-xxlarge">1+</span>
+    <span class="w3-xxlarge"><cms:editable name='sponsors' label='Sponsors' desc='Update the number of sponsors here' type='text'>1</cms:editable>+</span>
     <br>Sponsors
   </div>
   <div class="w3-third">
-    <span class="w3-xxlarge">2+</span>
+    <span class="w3-xxlarge"><cms:editable name='stem_activities' label='STEM Activities' desc='Update the number of STEM activities here' type='text'>2</cms:editable>+</span>
     <br>STEM Activities
   </div>
   <div class="w3-third">
-    <span class="w3-xxlarge">1+</span>
+    <span class="w3-xxlarge"><cms:editable name='mentors' label='Mentors' desc='Update the number of mentors here' type='text'>1</cms:editable>+</span>
     <br>Mentors
   </div>
 </div>
@@ -313,22 +313,22 @@
     <div class="w3-col m6">
       <h3>Our Targets.</h3>
       <p><br></p>
-      <p>Carry out at least two activities each year.<br>
-      Mentor up to ten girls each year.<br>
-      Sponsor at least ten girls each year.</p>
+      <p><cms:editable name='target_1' label='Target 1' desc='Update the target text here' type='text'>Carry out at least two activities each year.</cms:editable><br>
+      <cms:editable name='target_2' label='Target 2' desc='Update the target text here' type='text'>Mentor up to ten girls each year.</cms:editable><br>
+      <cms:editable name='target_3' label='Target 3' desc='Update the target text here' type='text'>Sponsor at least ten girls each year.</cms:editable></p>
     </div>
     <div class="w3-col m6">
       <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Activities Carried Out</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:<cms:editable name='target_1_style' label='Activities Carried Out' desc='Update the percentage of activities carried out here' type='text'>100</cms:editable>%"><cms:editable name='target_1_value' label='Confirm Activities Carried Out' desc='Confirm the updated percentage of activities carried out here' type='text'>100</cms:editable>%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Girls Mentored</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:1%">1%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:<cms:editable name='target_2_style' label='Girls Mentored' desc='Update the percentage of girls mentored here' type='text'>1</cms:editable>%"><cms:editable name='target_2_value' label='Confirm Girls Mentored' desc='Confirm the updated percentage of girls mentored here' type='text'>1</cms:editable>%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-cog w3-margin-right"></i>Girls Sponsored</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:1%">1%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:<cms:editable name='target_3_style' label='Girls Sponsored' desc='Update the percentage of girls sponsored here' type='text'>1</cms:editable>%"><cms:editable name='target_3_value' label='Confirm Girls Sponsored' desc='Confirm the updated percentage of girls sponsored here' type='text'>1</cms:editable>%</div>
       </div>
     </div>
   </div>
@@ -342,10 +342,10 @@
   <div class="w3-row-padding" style="margin-top:64px">
       <div class="w3-half">
           <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Edea, Cameroon</p>
-          <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> (00 237) - 699829546</p>
-          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> hiddennomorecameroon@gmail.com</p>
-          <p><i class="fa fa-facebook-official fa-fw w3-xxlarge w3-margin-right"></i><a href="https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/">Facebook</a></p>
-          <p><i class="fa fa-instagram fa-fw w3-xxlarge w3-margin-right"></i><a href="https://www.instagram.com/hnm_237/">Instagram</a></p>
+          <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <cms:editable name='phone' label='Phone' desc='Update phone number here' type='text'>(00 237) - 699829546</cms:editable></p>
+          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> <cms:editable name='email' label='Email' desc='Update email address here' type='text'>hiddennomorecameroon@gmail.com</cms:editable></p>
+          <p><i class="fa fa-facebook-official fa-fw w3-xxlarge w3-margin-right"></i><a href="<cms:editable name='fb_contact' label='Facebook Button - Contact' desc='Change the link to the social media button here' type='text'>https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/</cms:editable>">Facebook</a></p>
+          <p><i class="fa fa-instagram fa-fw w3-xxlarge w3-margin-right"></i><a href="<cms:editable name='ins_contact' label='Instagram Button - Contact' desc='Change the link to the social media button here' type='text'>https://www.instagram.com/hnm_237/</cms:editable>">Instagram</a></p>
       <br>
       <form action="#" target="_blank">
           <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
@@ -371,8 +371,8 @@
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section" style="margin-bottom: 80px!important;">
-    <a href="https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/hnm_237/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="<cms:editable name='fb_footer' label='Facebook Button - Footer' desc='Change the link to the social media button here' type='text'>https://www.facebook.com/Hidden-No-More-Cameroon-HNM237-211181522975178/</cms:editable>"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="<cms:editable name='ins_footer' label='Instagram Button - Footer' desc='Change the link to the social media button here' type='text'>https://www.instagram.com/hnm_237/</cms:editable>"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   </div>
   <p> <a href="#" title="FreelanceComputing" target="_blank" class="w3-hover-text-green"></a></p>
 </footer>
