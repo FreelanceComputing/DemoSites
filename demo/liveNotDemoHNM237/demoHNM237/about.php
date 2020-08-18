@@ -111,130 +111,46 @@
     </div>
 
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/3judith.jpg" alt="John" style="width:100%">
-                <div class="w3-container">
-                    <h3>Judith Atem</h3>
-                    <p class="w3-opacity">Secretary</p>
-                    <p>Born & raised in Cameroon. Obtained a B.S. in Electric al engineering from Souther n Polytechnic state univers ity. Worked at ABB for 6yrs<br> as a design & Manufacturing Engineer, 3yrs as a project engineer for National oilwe ll varco, now a Senior Deve lopment Engineer at J&J. <font color="#f1f1f1">th e end the end the end the.</font></p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/4adele.jpg" alt="Jane" style="width:100%">
-                <div class="w3-container">
-                    <h3>Adele Bogla</h3>
-                    <p class="w3-opacity">A. Secretary</p>
-                    <p>Éducation Génie Industriel  à l'école Polytechnique de  Yaoundé. <font color="#f1f1f1">ering from Souther n Polytechnic state univers ity. Worked at ABB for 6yrs<br> as a design & Manufacturing Engineer, 3yrs as a project engineer for National oilwe ll varco, now a Senior Deve lopment Engineer at J&J. th e end the end the end the. end.</font></p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/5nadege.jpg" alt="Mike" style="width:100%">
-                <div class="w3-container">
-                    <h3>Nadege Kwedi</h3>
-                    <p class="w3-opacity">Treasurer </p>
-                    <p>She obtained her Master's  degree in Business Law at   the University of Yaoundé   in 2008, followed by her Ma ster's degree in Industrial<br> Systems Engineering and Pro ject Management at the ISTI A School of Engineering at  Angers, France. She is the  assistant general manager  at EMT Sarl. <font color="#f1f1f1">the end the en</font></p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/6mireille.jpg" alt="Dan" style="width:100%">
-                <div class="w3-container">
-                    <h3>Mireille Mballa</h3>
-                    <p class="w3-opacity">A. Treasurer </p>
-                    <p>Born & raised in Cameroon, Mireille moved to the USA   with her family and complet ed her high school educatio n. She went to Penn State  <br>University where she obtaine d her Bachelor's Degree in  Electrical Engineering. Mir eille is now an Electrical  System Engineer at The Boe ing Company in Seattle, WA.</p>
-                </div>
-            </div>
-        </div>
+	    <cms:pages masterpage='secondRow.php'>
+			<div class="w3-col l3 m6 w3-margin-bottom">
+				<div class="w3-card">
+					<img src="<cms:show picture />" alt="<cms:show picture_description />" style="width:100%">
+					<div class="w3-container">
+						<h3><cms:show full_name /></h3>
+						<p class="w3-opacity"><cms:show role /></p>
+						<p><cms:show description /></p>
+					</div>
+				</div>
+			</div>
+        </cms:pages>
     </div>
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/7patience.jpg" alt="John" style="width:100%">
-                <div class="w3-container">
-                    <h3>Patience Bonglack</h3>
-                    <p class="w3-opacity">Media & Marketing Coord.</p>
-                    <p>She graduated from the Uni versity of Minnesota-Twin C ities with a Bachelor’s in  Civil Engineering & had the  privilege to intern for Br aun Intertec, Professional  Engineering & Minnesota Dep artment of Transportation.  She is currently a Field In spector at the Illinois Dep artment of Transportation .</p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/8arrah.jpg" alt="Jane" style="width:100%">
-                <div class="w3-container">
-                    <h3>Arrah Etah</h3>
-                    <p class="w3-opacity">A. Media & Marketing Coord.</p>
-                    <p>Etah is a chemical enginee r in training at the Cathol ic University Institute of Buea. During her undergradua te studies, she's been oppo rtuned to carry out interns hips at ALUCAM,PAMOL & IRAD research center. She is pas sionate about music, writin g & motivating others to as pire for greater heights  .</p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/9keleghai.jpg" alt="Mike" style="width:100%">
-                <div class="w3-container">
-                    <h3>Keleghai Mentan</h3>
-                    <p class="w3-opacity">Logistics Coordinator</p>
-                    <p>Kiki attended the Universi ty of Minnesota where she e arned her Bachelor’s Degree  in Aerospace Engineering a nd Mechanics in 2010. She t hen completed her Master’s  degree in Industrial Engine ering in 2012. Kiki is an employee of The Boeing Company where she has worked for the past 6+ years. <font color="#f1f1f1">the end  .</font></p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/10nelly.jpg" alt="Dan" style="width:100%">
-                <div class="w3-container">
-                    <h3>Nelly Ngoti</h3>
-                    <p class="w3-opacity">Projects & Events Coordinator</p>
-                    <p>Nelly obtained her Enginee ring degree at ECAM (French  engineering school based i n Lyon, France) and a Maste r’s of Science in manufactu ring consultancy at Cranfie ld University in England. S he worked for one year at B osch in Cardiff (UK) then 2  years in AEROCAN and 6 yea rs at ALUCAM. <font color="#f1f1f1">the end the .</font></p>
-                </div>
-            </div>
-        </div>
+        <cms:pages masterpage='thirdRow.php'>
+			<div class="w3-col l3 m6 w3-margin-bottom">
+				<div class="w3-card">
+					<img src="<cms:show picture />" alt="<cms:show picture_description />" style="width:100%">
+					<div class="w3-container">
+						<h3><cms:show full_name /></h3>
+						<p class="w3-opacity"><cms:show role /></p>
+						<p><cms:show description /></p>
+					</div>
+				</div>
+			</div>
+        </cms:pages>
     </div>
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/11eneke.jpg" alt="John" style="width:100%">
-                <div class="w3-container">
-                    <h3>Comfort Eneke</h3>
-                    <p class="w3-opacity">Board Member</p>
-                    <p>Comfort is a Cameroonian and still resides in Cameroon. Obtained primary, secondary and High school certificates in various institutions within the country. Occupation: Industrial Food Processing Engineer. Field: Industrial Engineering. <font color="#f1f1f1">into a self-employed individual. the end the e</font></p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/12beatrice.jpg" alt="Jane" style="width:100%">
-                <div class="w3-container">
-                    <h3>Beatrice Ncho</h3>
-                    <p class="w3-opacity">Board Member</p>
-                    <p>Born and raised in Cameroon, Beatrice came to the United States after completion of High School. She decided to pursue Chemical Engineering. After obtaining her BSc, she applied to graduate school and is currently at Georgia Institute of Technology as a PhD student.</p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/13limunga.jpg" alt="Mike" style="width:100%">
-                <div class="w3-container">
-                    <h3>Limunga Mingo</h3>
-                    <p class="w3-opacity">Board Member</p>
-                    <p>Born and raised in Cameroon, Limunga Mingo moved to the US after high school and got a B.S. in Mechanical Engineering and M.S in Engineering Management. She moved back to Cameroon after her Master’s degree in 2016. She is transitioning into a self-employed individual.</p>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/14beyang.jpg" alt="Dan" style="width:100%">
-                <div class="w3-container">
-                    <h3>Beyang Arrey</h3>
-                    <p class="w3-opacity">Web Designer</p>
-                    <p>Beyang graduated from the university of Birmingham with a B.Eng. in Computer Systems Engineering & M.Sc. in Communications Engineering with Networks & Industrial Placement. She currently works as a Software Engineer at Renishaw PLC's Additive Manufacturing division.</p>
-                </div>
-            </div>
-        </div>
+        <cms:pages masterpage='fourthRow.php'>
+			<div class="w3-col l3 m6 w3-margin-bottom">
+				<div class="w3-card">
+					<img src="<cms:show picture />" alt="<cms:show picture_description />" style="width:100%">
+					<div class="w3-container">
+						<h3><cms:show full_name /></h3>
+						<p class="w3-opacity"><cms:show role /></p>
+						<p><cms:show description /></p>
+					</div>
+				</div>
+			</div>
+        </cms:pages>
     </div>
 </div>
 
