@@ -1,4 +1,7 @@
 ﻿<?php require_once( 'the-digital-bee/cms.php' ); ?>
+<cms:template title='First Row'>
+    
+</cms:template>
 <!DOCTYPE html>
 <html>
 <head>

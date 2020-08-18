@@ -1,4 +1,5 @@
 ﻿<?php require_once( 'the-digital-bee/cms.php' ); ?>
+<cms:template title='Main Page' />
 <!DOCTYPE html>
 <html>
 <head>
