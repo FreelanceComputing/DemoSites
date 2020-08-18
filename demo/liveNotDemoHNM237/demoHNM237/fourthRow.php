@@ -22,7 +22,7 @@
 <body>
 
 
-        <div class="w3-col l6 m6 w3-margin-bottom">
+        <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-card">
                 <img src="<cms:show picture />" alt="<cms:show picture_description />" style="width:100%">
                 <div class="w3-container">
