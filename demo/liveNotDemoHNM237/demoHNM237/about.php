@@ -95,28 +95,19 @@
     <h3 class="w3-center">OUR MEMBERS</h3>
     <p class="w3-center w3-large">Here are our active members</p>
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-        <div class="w3-col l6 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/1persis.jpg" alt="Persis" style="width:100%">
-                <div class="w3-container">
-                    <h3>Persis Mbangsi</h3>
-                    <p class="w3-opacity">President</p>
-                    <p>Persis received her Bachelor’s degree with honors and Master’s Degree in Chemical Engineering at the University of Cape Town, South Africa. Persis has 6 years’ work experience then as Process and Quality Engineer and now the Process Supervisor in the Reduction Unit of ALUCAM, Cameroon.</p>
-                    <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
-                </div>
-            </div>
-        </div>
-        <div class="w3-col l6 m6 w3-margin-bottom">
-            <div class="w3-card">
-                <img src="img/members/2mbu.jpg" alt="Mbu" style="width:100%">
-                <div class="w3-container">
-                    <h3>Mbu Waindim</h3>
-                    <p class="w3-opacity">Vice President</p>
-                    <p>Mbu Waindim is a thermal / reservoir engineer at Harris Corp in Melbourne FL. She received her Ph.D. in aerospace engineering from the Ohio State university in 2017. While working on her degree, she worked at NASA Glenn Research center and at the Air Force Research Laboratory.<font color="#f1f1f1">the end</font></p>
-                    <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
-                </div>
-            </div>
-        </div>
+	    <cms:pages masterpage='firstRow.php'>
+			<div class="w3-col l6 m6 w3-margin-bottom">
+				<div class="w3-card">
+					<img src="<cms:show picture />" alt="<cms:show picture_description />" style="width:100%">
+					<div class="w3-container">
+						<h3><cms:show full_name /></h3>
+						<p class="w3-opacity"><cms:show role /></p>
+						<p><cms:show description /></p>
+						<!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
+					</div>
+				</div>
+			</div>
+		</cms:pages>
     </div>
 
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
