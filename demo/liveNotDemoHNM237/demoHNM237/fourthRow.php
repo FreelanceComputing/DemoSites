@@ -1,5 +1,5 @@
 ﻿<?php require_once( 'the-digital-bee/cms.php' ); ?>
-<cms:template title='Fourth Row' >
+<cms:template title='Fourth Row' clonable='1'>
     <cms:editable name='full_name' label='Full Name' desc='Enter the full name here' type='text'/>
     <cms:editable name='role' label='Role' desc='Enter the role or position here' type='text'/>
     <cms:editable name='description' label='Description' desc='Enter the description here' type='text'/>
