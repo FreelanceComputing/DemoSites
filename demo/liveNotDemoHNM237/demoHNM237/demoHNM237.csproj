@@ -70,6 +70,8 @@
   <ItemGroup>
     <Content Include="about.php" />
     <Content Include="firstRow.php" />
+    <Content Include="fourthRow.php" />
+    <Content Include="secondRow.php" />
     <Content Include="the-digital-bee\addons\bootstrap-grid\bootstrap-grid.php" />
     <Content Include="the-digital-bee\addons\bootstrap-grid\theme\form_row_row.html" />
     <Content Include="the-digital-bee\addons\bootstrap-grid\theme\grid12.css" />
@@ -970,6 +972,7 @@
     <Content Include="img\mission.jpg" />
     <Content Include="index.html" />
     <Content Include="js\functions.js" />
+    <Content Include="thirdRow.php" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
