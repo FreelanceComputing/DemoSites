@@ -1,6 +1,9 @@
 ﻿<?php require_once( 'the-digital-bee/cms.php' ); ?>
 <cms:template title='First Row'>
-    
+    <cms:editable name='full_name' label='Full Name' desc='Enter the full name here' type='text'/>
+    <cms:editable name='role' label='Role' desc='Enter the role or position here' type='text'/>
+    <cms:editable name='description' label='Description' desc='Enter the description here' type='text'/>
+    <cms:editable name='picture' label='Picture' desc='Upload the picture here' crop='1' width='500' height='408' type='image'/>
 </cms:template>
 <!DOCTYPE html>
 <html>
@@ -19,11 +22,11 @@
 
         <div class="w3-col l6 m6 w3-margin-bottom">
             <div class="w3-card">
-                <img src="img/members/1persis.jpg" alt="Persis" style="width:100%">
+                <img src="<cms:show picture />" alt="Persis" style="width:100%">
                 <div class="w3-container">
-                    <h3>Persis Mbangsi</h3>
-                    <p class="w3-opacity">President</p>
-                    <p>Persis received her Bachelor’s degree with honors and Master’s Degree in Chemical Engineering at the University of Cape Town, South Africa. Persis has 6 years’ work experience then as Process and Quality Engineer and now the Process Supervisor in the Reduction Unit of ALUCAM, Cameroon.</p>
+                    <h3><cms:show full_name /></h3>
+                    <p class="w3-opacity"><cms:show role /></p>
+                    <p><cms:show description /></p>
                 </div>
             </div>
         </div>
