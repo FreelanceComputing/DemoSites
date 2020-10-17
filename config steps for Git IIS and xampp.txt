@@ -15,6 +15,13 @@ echo <dir> > .git/info/sparse-checkout
 git checkout
 
 
+// Removing Remote Commits From Any Branch including Master
+git reset --hard {SHA}
+- where {SHA} is the commit ID of the commit that i want to keep as the head of the branch
+- this will show incoming commits in VS but don't pull them, simply perform a force push as shown below
+git push -f
+
+
 // enable php fastcgi on VS2017 iis express project
 -  https://stackoverflow.com/a/45043425
 // use appcmd option instead of manual file edits
