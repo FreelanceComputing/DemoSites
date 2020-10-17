@@ -1,0 +1,67 @@
+# Files to ignore in Prestashop
+
+#
+# 1. Configs and credentials
+#
+shop/config/settings.*.php
+shop/config/xml/*
+!shop/config/xml/themes/
+shop/modules/*/config*.xml
+
+#
+# 2. Cache, temp and generated files
+#
+shop/cache/*
+!shop/cache/index.php
+# 
+# 2.1 Start nested exception
+#
+!shop/cache/*/
+shop/cache/*/*
+!shop/cache/*/index.php 
+# 
+# 2.1 End nested exception
+#
+shop/themes/*/cache/
+shop/var/cache/
+shop/var/logs/
+shop/var/sessions/
+shop/vendor/*
+!shop/vendor/.htaccess
+shop/log/*
+!shop/log/index.php
+shop/backoffice/autoupgrade/
+shop/*sitemap.xml
+shop/robots.txt
+
+#
+# 3. Site content e.g. virtual products, images, CSVs etc.
+#
+shop/backoffice/backups/
+shop/backoffice/export/
+shop/backoffice/import/
+shop/download/*
+!shop/download/index.php
+!shop/download/.htaccess
+shop/upload/*
+!shop/upload/index.php
+!shop/upload/.htaccess
+shop/img/*
+!shop/img/admin/
+!shop/img/jquery-ui/
+
+#
+# 4. Unused languages 
+#
+
+# 4.1 Ignore XMLs in the localization folder and its sub-folders
+shop/localization/**/*.xml
+
+# 4.2 Create exception for a specific file in the localization folder
+!shop/localization/gb.xml
+
+# 4.3 Create exception for files matching a specific pattern in the localization folder and its sub-folders
+!shop/localization/**/en*.xml
+
+# 4.4 Create exception for a sub-folder of the localization folder
+!shop/localization/**/supplemental/*
