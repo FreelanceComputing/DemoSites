@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'smartiesprouts_prestashop',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => '3sfb0sHfEa6Dzaiz2krw9rU9VmfQXRQo12gmg3uO5JwKiGGTdw7LIkwn',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2020-09-25',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'famvOpgXJL41bNpvz9J4a2jgmODkPxRMVAd0VXvbLCBHBUusTkqzHNtt',
+    'cookie_iv' => 'VMfHdoxJ',
+    'new_cookie_key' => 'def00000811219ba6338d1243b1fff0f36523e1564836b907bb5cc404223898b8898fdba426c97f6fdc38afc6e3f3f3efc8fbfe7367790e1c8d085c265e36bcb4283099a',
+  ),
+);
