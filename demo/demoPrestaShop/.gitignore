@@ -65,3 +65,6 @@ shop/localization/**/*.xml
 
 # 4.4 Create exception for a sub-folder of the localization folder
 !shop/localization/**/supplemental/*
+
+# https://www.h-hennes.fr/blog/2017/04/27/prestashop-passer-au-deploiement-continu/
+# https://build.prestashop.com/howtos/misc/prestashop-perfect-gitignore/
