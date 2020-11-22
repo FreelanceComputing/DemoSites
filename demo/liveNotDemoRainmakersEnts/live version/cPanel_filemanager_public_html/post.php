@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$mail->Host = "server242.web-hosting.com";
 	$mail->SMTPAuth = true;
     $mail->Username = "rainchxq";
-    $mail->Password = "qWCytTYUvGa7";
+    $mail->Password = "************";
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 	$mail->setFrom($admin, "rainmakersents webmail");
