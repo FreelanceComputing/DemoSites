@@ -1,9 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once( 'content-managed-back-office/cms.php' ); ?>
+<cms:template title='Main Page'>
+    <cms:editable name='logo' label='Logo' desc='Upload the logo here - 158x53' crop='1' width='158' height='53' type='image'/>
+</cms:template>
+<!DOCTYPE html>
 <!--[if !IE]><!-->
 <html lang="en-US">
 <!--<![endif]-->
 
 <head>
+    <base href="<cms:show k_site_link />" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>RainMakers Ents</title>
@@ -15,7 +20,7 @@
     <link rel='stylesheet' id='bootstrap-css' href='css/bootstrap.min.css' type='text/css' media='all' />
     <link data-minify="1" rel='stylesheet' href='css/master.css' type='text/css' media='all' />
     <link data-minify="1" rel='stylesheet' href='css/make.css' type='text/css' media='all' />
-    
+
     <script type='text/javascript' src='js/jquery-1.12.4.js'></script>
 </head>
 
@@ -24,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6 align-self-center">
-                    <a class="navbar-brand logo" href="#"> <img src="img/logo_light.png" alt="RainMakers Ents"> </a>
+                    <a class="navbar-brand logo" href="#"> <img src="<cms:show logo />" alt="RainMakers Ents"> </a>
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-light xs-navbar navbar-expand-lg">
@@ -321,3 +326,4 @@
 </body>
 
 </html>
+<?php COUCH::invoke(); ?>
