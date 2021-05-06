@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <base href = "<cms:show k_site_link />" />
     <title>Hidden No More Cameroon</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
