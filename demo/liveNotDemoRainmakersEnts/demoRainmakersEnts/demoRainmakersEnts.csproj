@@ -989,7 +989,7 @@
     <Content Include="img\schedule_img_1.jpg" />
     <Content Include="img\schedule_img_2.jpg" />
     <Content Include="img\schedule_img_3.jpg" />
-    <Content Include="index.html" />
+    <Content Include="index.php" />
     <Content Include="js\ajax.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\frontend-modules.min-2.7.5.js" />
