@@ -942,6 +942,7 @@
     <Content Include="css\master.css" />
     <Content Include="css\post.css" />
     <Content Include="email.php" />
+    <Content Include="events.php" />
     <Content Include="event\1\img\1.jpg" />
     <Content Include="event\1\index.html" />
     <Content Include="event\2\img\2.jpg" />
