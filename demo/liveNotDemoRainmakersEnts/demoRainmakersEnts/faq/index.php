@@ -1,9 +1,18 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once( '../content-managed-back-office/cms.php' ); ?>
+<cms:template title='Faq'>
+    <cms:editable name='logo' label='Logo' desc='Upload the logo here - 158x53' crop='1' width='158' height='53' type='image'>../img/logo_light.png</cms:editable>
+	<cms:editable name='questions' label='Question details' desc='Specify frequently asked questions here' toolbar='basic' type='richtext'>For the event FAQs, we would answer questions for each event individually as all the usual info is always displayed on flyers and posts as well. We will also update our website and create posts with all this information on our social media pages.<br><br>For sponsorships and partnerships, please contact us via the email provided on the contact page and we will aim to respond within 48hours of reading your email.</cms:editable>
+	<cms:editable name='fb_footer' label='Facebook button' desc='Change the link to the Facebook button here' type='text'>http://facebook.com/ted.rainmaker.14/</cms:editable>
+	<cms:editable name='ins_footer' label='Instagram button' desc='Change the link to the Instagram button here' type='text'>https://instagram.com/rainmakersents/</cms:editable>
+</cms:template>
+
+<!DOCTYPE html>
 <!--[if !IE]><!-->
 <html lang="en-US">
 <!--<![endif]-->
 
 <head>
+    <base href="<cms:show k_template_link />" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Faq - RainMakers Ents</title>
@@ -25,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6 align-self-center">
-                    <a class="navbar-brand logo" href="../"> <img src="../img/logo_light.png" alt="RainMakers Ents"> </a>
+                    <a class="navbar-brand logo" href="<cms:show k_site_link />"> <img src="<cms:show logo/>" alt="RainMakers Ents"> </a>
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-light xs-navbar navbar-expand-lg">
@@ -85,8 +94,7 @@
                                                 <div class="elementor-tab-title elementor-active">                                                    
                                                 </div>
                                                 <div class="elementor-tab-content elementor-clearfix elementor-active" role="tabpanel" aria-labelledby="elementor-tab-title-2831" style="display:block;">
-                                                    <p>For the event FAQs, we would answer questions for each event individually as all the usual info is always displayed on flyers and posts as well. We will also update our website and create posts with all this information on our social media pages.</p>
-                                                    <p>For sponsorships and partnerships, please contact us via the email provided on the contact page and we will aim to respond within 48hours of reading your email.</p>
+                                                    <cms:show questions/>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,3 +137,4 @@
 </body>
 
 </html>
+<?php COUCH::invoke(); ?>
