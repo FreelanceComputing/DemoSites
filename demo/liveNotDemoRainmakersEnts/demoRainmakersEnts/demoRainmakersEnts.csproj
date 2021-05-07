@@ -68,7 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contact\index.html" />
+    <Content Include="contact\index.php" />
     <Content Include="content-managed-back-office\addons\bootstrap-grid\bootstrap-grid.php" />
     <Content Include="content-managed-back-office\addons\bootstrap-grid\theme\form_row_row.html" />
     <Content Include="content-managed-back-office\addons\bootstrap-grid\theme\grid12.css" />
