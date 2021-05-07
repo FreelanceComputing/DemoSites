@@ -1048,6 +1048,7 @@
     <Content Include="content-managed-back-office\includes\securimage\gdfonts\automatic.gdf" />
     <Content Include="content-managed-back-office\snippets\.htaccess" />
     <Content Include="content-managed-back-office\uploads\file\secure\.htaccess" />
+    <Content Include=".htaccess" />
     <None Include="packages.config" />
     <Content Include="PHPMailer\COMMITMENT" />
     <Content Include="PHPMailer\composer.json" />
