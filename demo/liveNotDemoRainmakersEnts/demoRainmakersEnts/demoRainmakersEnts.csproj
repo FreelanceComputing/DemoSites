@@ -949,7 +949,7 @@
     <Content Include="event\2\removed_index.html" />
     <Content Include="event\3\img\3.jpg" />
     <Content Include="event\3\index.html" />
-    <Content Include="faq\index.html" />
+    <Content Include="faq\index.php" />
     <Content Include="fontawesome-5.13.0\css\all.css" />
     <Content Include="fontawesome-5.13.0\css\all.min.css" />
     <Content Include="fontawesome-5.13.0\css\brands.css" />
