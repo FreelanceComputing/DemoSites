@@ -114,10 +114,10 @@
                     <div class="ts-footer-social text-center mb-30">
                         <ul>
                             <li class="ts-facebook">
-                                <a href="http://facebook.com/ted.rainmaker.14/" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
+                                <a href="<cms:show fb_footer/>" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
                             </li>
                             <li class="ts-instagram">
-                                <a href="https://instagram.com/rainmakersents/" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
+                                <a href="<cms:show ins_footer/>" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
                             </li>
                         </ul>
                     </div>
