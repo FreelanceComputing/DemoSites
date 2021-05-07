@@ -11,7 +11,7 @@
 <!--<![endif]-->
 
 <head>
-    <base href="<cms:show k_site_link />" />
+    <base href="<cms:show k_template_link />" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Gallery - RainMakers Ents</title>
@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6 align-self-center">
-                    <a class="navbar-brand logo" href="../"> <img src="../img/logo_light.png" alt="RainMakers Ents"> </a>
+                    <a class="navbar-brand logo" href="<cms:show k_site_link />"> <img src="<cms:show logo/>" alt="RainMakers Ents"> </a>
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-light xs-navbar navbar-expand-lg">
@@ -87,102 +87,18 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-image-gallery">
                                             <div id='gallery-1' class='gallery galleryid-1068 gallery-columns-3 gallery-size-full'>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery1.jpg'>
-                                                            <img width="740" height="600" src="img/gallery1.jpg" class="attachment-full size-full" alt="" srcset="img/gallery1.jpg 740w, img/gallery1-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <!-- figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery2.jpg'>
-                                                            <img width="740" height="600" src="img/gallery2.jpg" class="attachment-full size-full" alt="" srcset="img/gallery2.jpg 740w, img/gallery2-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery3.jpg'>
-                                                            <img width="740" height="600" src="img/gallery3.jpg" class="attachment-full size-full" alt="" srcset="img/gallery3.jpg 740w, img/gallery3-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery4.jpg'>
-                                                            <img width="740" height="600" src="img/gallery4.jpg" class="attachment-full size-full" alt="" srcset="img/gallery4.jpg 740w, img/gallery4-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery5.jpg'>
-                                                            <img width="740" height="600" src="img/gallery5.jpg" class="attachment-full size-full" alt="" srcset="img/gallery5.jpg 740w, img/gallery5-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery6.jpg'>
-                                                            <img width="740" height="600" src="img/gallery6.jpg" class="attachment-full size-full" alt="" srcset="img/gallery6.jpg 740w, img/gallery6-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery7.jpg'>
-                                                            <img width="740" height="600" src="img/gallery7.jpg" class="attachment-full size-full" alt="" srcset="img/gallery7.jpg 740w, img/gallery7-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure -->
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery8.jpg'>
-                                                            <img width="740" height="600" src="img/gallery8.jpg" class="attachment-full size-full" alt="" srcset="img/gallery8.jpg 740w, img/gallery8-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery9.jpg'>
-                                                            <img width="740" height="600" src="img/gallery9.jpg" class="attachment-full size-full" alt="" srcset="img/gallery9.jpg 740w, img/gallery9-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery10.jpg'>
-                                                            <img width="740" height="600" src="img/gallery10.jpg" class="attachment-full size-full" alt="" srcset="img/gallery10.jpg 740w, img/gallery10-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery11.jpg'>
-                                                            <img width="740" height="600" src="img/gallery11.jpg" class="attachment-full size-full" alt="" srcset="img/gallery11.jpg 740w, img/gallery11-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
-                                                <figure class='gallery-item'>
-                                                    <div class='gallery-icon landscape'>
-                                                        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='img/gallery12.jpg'>
-                                                            <img width="740" height="600" src="img/gallery12.jpg" class="attachment-full size-full" alt="" srcset="img/gallery12.jpg 740w, img/gallery12-300x243.jpg 300w"
-                                                                    sizes="(max-width: 740px) 100vw, 740px" />
-                                                        </a>
-                                                    </div>
-                                                </figure>
+
+											    <cms:pages masterpage='gallery/pictures.php'>
+                                                    <figure class='gallery-item'>
+                                                        <div class='gallery-icon landscape'>
+                                                            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="b06034a" href='<cms:show gallery_img/>'>
+                                                                <img width="740" height="600" src="<cms:show gallery_img/>" class="attachment-full size-full" alt="" srcset="<cms:show gallery_img/> 740w, img/gallery1-300x243.jpg 300w"
+                                                                        sizes="(max-width: 740px) 100vw, 740px" />
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+												</cms:pages>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -200,10 +116,10 @@
                     <div class="ts-footer-social text-center mb-30">
                         <ul>
                             <li class="ts-facebook">
-                                <a href="http://facebook.com/ted.rainmaker.14/" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
+                                <a href="<cms:show fb_footer/>" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
                             </li>
                             <li class="ts-instagram">
-                                <a href="https://instagram.com/rainmakersents/" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
+                                <a href="<cms:show ins_footer/>" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
                             </li>
                         </ul>
                     </div>
