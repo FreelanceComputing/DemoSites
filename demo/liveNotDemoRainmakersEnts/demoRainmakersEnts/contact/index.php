@@ -1,9 +1,21 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once( '../content-managed-back-office/cms.php' ); ?>
+<cms:template title='Contact'>
+    <cms:editable name='logo' label='Logo' desc='Upload the logo here - 158x53' crop='1' width='158' height='53' type='image'>../img/logo_light.png</cms:editable>
+	<cms:editable name='contact_heading' label='Contact heading' desc='Specify the heading here' type='text'>Enquiries</cms:editable>
+	<cms:editable name='contact_name' label='Contact name' desc='Specify name here' type='text'>Ted Rainmaker</cms:editable>
+	<cms:editable name='contact_phone' label='Contact phone' desc='Specify phone number here' type='text'>07311153545</cms:editable>
+	<cms:editable name='contact_email' label='Contact email' desc='Specify email here' type='text'>rainmakerents@gmail.com</cms:editable>
+	<cms:editable name='fb_footer' label='Facebook button' desc='Change the link to the Facebook button here' type='text'>http://facebook.com/ted.rainmaker.14/</cms:editable>
+	<cms:editable name='ins_footer' label='Instagram button' desc='Change the link to the Instagram button here' type='text'>https://instagram.com/rainmakersents/</cms:editable>
+</cms:template>
+
+<!DOCTYPE html>
 <!--[if !IE]><!-->
 <html lang="en-US">
 <!--<![endif]-->
 
 <head>
+    <base href="<cms:show k_template_link />" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Contact - RainMakers Ents</title>
@@ -26,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6 align-self-center">
-                    <a class="navbar-brand logo" href="../"> <img src="../img/logo_light.png" alt="RainMakers Ents"> </a>
+                    <a class="navbar-brand logo" href="<cms:show k_site_link />"> <img src="<cms:show logo/>" alt="RainMakers Ents"> </a>
                 </div>
                 <div class="col-lg-9">
                     <nav class="navbar navbar-light xs-navbar navbar-expand-lg">
@@ -75,9 +87,9 @@
                                 <div class="elementor-element">
                                     <div class="elementor-widget-container">
                                         <div class="single-intro-text single-contact-feature">
-                                            <h3 class="ts-title">Enquiries</h3>
+                                            <h3 class="ts-title"><cms:show contact_heading/></h3>
                                             <p>
-                                                <strong>Name:</strong> Ted Rainmaker</br> <strong>Phone:</strong> 07311153545</br> <strong>Email:</strong> rainmakerents@gmail.com</br>
+                                                <strong>Name:</strong> <cms:show contact_name/></br> <strong>Phone:</strong> <cms:show contact_phone/></br> <strong>Email:</strong> <cms:show contact_email/></br>
                                             </p> <span class="count-number fas fa-info"> </span>
                                         </div>
                                     </div>
@@ -187,10 +199,10 @@
                     <div class="ts-footer-social text-center mb-30">
                         <ul>
                             <li class="ts-facebook">
-                                <a href="http://facebook.com/ted.rainmaker.14/" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
+                                <a href="<cms:show fb_footer/>" target="_blank"> <i class="fab fa-facebook-f"></i> <span>Facebook</span> </a>
                             </li>
                             <li class="ts-instagram">
-                                <a href="https://instagram.com/rainmakersents/" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
+                                <a href="<cms:show ins_footer/>" target="_blank"> <i class="fab fa-instagram"></i> <span>Instagram</span> </a>
                             </li>
                         </ul>
                     </div>
@@ -209,3 +221,4 @@
 </body>
 
 </html>
+<?php COUCH::invoke(); ?>
