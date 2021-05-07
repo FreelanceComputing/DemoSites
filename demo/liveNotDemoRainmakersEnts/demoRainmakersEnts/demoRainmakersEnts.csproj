@@ -980,7 +980,7 @@
     <Content Include="gallery\img\gallery7.jpg" />
     <Content Include="gallery\img\gallery8.jpg" />
     <Content Include="gallery\img\gallery9.jpg" />
-    <Content Include="gallery\index.html" />
+    <Content Include="gallery\index.php" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\dot.png" />
     <Content Include="img\landing_logo.jpg" />
