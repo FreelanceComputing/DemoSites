@@ -1,9 +1,17 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once( '../content-managed-back-office/cms.php' ); ?>
+<cms:template title='Gallery'>
+    <cms:editable name='logo' label='Logo' desc='Upload the logo here - 158x53' crop='1' width='158' height='53' type='image'>../img/logo_light.png</cms:editable>
+	<cms:editable name='fb_footer' label='Facebook button' desc='Change the link to the Facebook button here' type='text'>http://facebook.com/ted.rainmaker.14/</cms:editable>
+	<cms:editable name='ins_footer' label='Instagram button' desc='Change the link to the Instagram button here' type='text'>https://instagram.com/rainmakersents/</cms:editable>
+</cms:template>
+
+<!DOCTYPE html>
 <!--[if !IE]><!-->
 <html lang="en-US">
 <!--<![endif]-->
 
 <head>
+    <base href="<cms:show k_site_link />" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Gallery - RainMakers Ents</title>
@@ -222,3 +230,4 @@
 </body>
 <!--https://www.w3schools.com/howto/howto_js_lightbox.asp-->
 </html>
+<?php COUCH::invoke(); ?>
